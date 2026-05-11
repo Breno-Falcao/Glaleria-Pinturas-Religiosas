@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+    background-image: url(/imagens/entrada/jesus-body-fundo.png);
+    background-size: 100px;
+}
+menu > ul{
+    display: flex;
+    width: 100%;
+}
+menu > ul > li{
+    width: 33.33%;
+    list-style: none;
+    text-align: center;
+    border: 1px solid gold;
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.498);
+    padding: 5px 0px;
+}
+menu > ul > li:hover{
+    background-color: rgb(0, 0, 0);
+}
+menu > ul > li > a{
+    text-decoration: none;
+    color: gold;
+}
+section{
+    width: 100%;
+}
+.ar1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: gold;
+    background-color: #0000008c;
+
+}
+.ar1 > h1{
+
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.ar1 > h2{
+    background-color: black;
+    width: 100%;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+}
+.ar1 > p{
+    width: 40%; /* coloca assim, senao o heigth ajusta automaticamente e absolute over */
+}
+
+.genesis,.exodus,.levitico,.numeros,.deuteronomio{
+    background-color: black;
+    text-align: center;
+    color: gold;
+    padding: 10px 0px;
+    border: 3px solid gold;
+}
+.genesis:hover,.exodus:hover,.levitico:hover,.numeros:hover,.deuteronomio:hover{
+    font-size: 20px;
+    
+}
+.genesis-info,.exodus-info,.levitico-info,.numeros-info,.deuteronomio-info{
+    background-color: rgba(0, 0, 0, 0.761);
+    color: gold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    padding:10px 0px;
+    display: none;
+
+}
+.genesis-info>p,.exodus-info>p,.levitico-info>p,.numeros-info>p,.deuteronomio-info>p{
+    width: 40%;
+}
+.genesis-galery,.exodus-galery,.levitico-galery,.numeros-galery,.deuteronomio-galery{
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    background-color: black;
+}
+.genesis-galery>a,.exodus-galery>a,.levitico-galery>a,.numeros-galery>a,.deuteronomio-galery>a{
+    display: contents;
+}
+
+.afterbg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+.afterbg:hover{
+    opacity: 1;
+}
+.geimg1,.geimg2,.geimg3,.geimg4,.geimg5,.geimg6,.geimg7,.geimg8,.geimg9,.geimg10,.geimg11,.geimg12,.geimg13,.geimg14,.geimg15,.geimg16,.geimg17,.geimg18,.geimg19,.geimg20,.geimg21,.geimg22,.geimg23,.geimg24,.geimg25,.geimg26,.geimg27,.geimg28
+,.geimg29,.geimg30,.geimg31,.geimg32,.geimg33,.geimg34,.geimg35,.geimg36,.geimg37,.geimg38,.geimg39,.geimg40,.geimg41,.geimg42,.geimg43,.geimg44,.geimg45,.geimg46,.geimg47,.geimg48,.geimg49,.geimg50,
+.eximg1,.eximg2,.eximg3,.eximg4,.eximg5,.eximg6,.eximg7,.eximg8,.eximg9,.eximg10,.eximg11,.eximg12,.eximg13,.eximg14,.eximg15,.eximg16,.eximg17,.eximg18,.eximg19,.eximg20,.eximg21,.eximg22,.eximg23,.eximg24,.eximg25,.eximg26,.eximg27,.eximg28
+,.eximg29,.eximg30,.eximg31,.eximg32,.eximg33,.eximg34,.eximg35,.eximg36,.eximg37,.eximg38,.eximg39,.eximg40,.eximg41,.eximg42,.eximg43,.eximg44,.eximg45,.eximg46,.eximg47,.eximg48,.eximg49,.eximg50,
+.leimg1,.leimg2,.leimg3,.leimg4,.leimg5,.leimg6,.leimg7,.leimg8,.leimg9,.leimg10,.leimg11,.leimg12,.leimg13,.leimg14,.leimg15,.leimg16,.leimg17,.leimg18,.leimg19,.leimg20,.leimg21,.leimg22,.leimg23,.leimg24,.leimg25,.leimg26,.leimg27,.leimg28
+,.leimg29,.leimg30,.leimg31,.leimg32,.leimg33,.leimg34,.leimg35,.leimg36,.leimg37,.leimg38,.leimg39,.leimg40,.leimg41,.leimg42,.leimg43,.leimg44,.leimg45,.leimg46,.leimg47,.leimg48,.leimg49,.leimg50,
+.nuimg1,.nuimg2,.nuimg3,.nuimg4,.nuimg5,.nuimg6,.nuimg7,.nuimg8,.nuimg9,.nuimg10,.nuimg11,.nuimg12,.nuimg13,.nuimg14,.nuimg15,.nuimg16,.nuimg17,.nuimg18,.nuimg19,.nuimg20,.nuimg21,.nuimg22,.nuimg23,.nuimg24,.nuimg25,.nuimg26,.nuimg27,.nuimg28
+,.nuimg29,.nuimg30,.nuimg31,.nuimg32,.nuimg33,.nuimg34,.nuimg35,.nuimg36,.nuimg37,.nuimg38,.nuimg39,.nuimg40,.nuimg41,.nuimg42,.nuimg43,.nuimg44,.nuimg45,.nuimg46,.nuimg47,.nuimg48,.nuimg49,.nuimg50,
+.deimg1,.deimg2,.deimg3,.deimg4,.deimg5,.deimg6,.deimg7,.deimg8,.deimg9,.deimg10,.deimg11,.deimg12,.deimg13,.deimg14,.deimg15,.deimg16,.deimg17,.deimg18,.deimg19,.deimg20,.deimg21,.deimg22,.deimg23,.deimg24,.deimg25,.deimg26,.deimg27,.deimg28
+,.deimg29,.deimg30,.deimg31,.deimg32,.deimg33,.deimg34,.deimg35,.deimg36,.deimg37,.deimg38,.deimg39,.deimg40,.deimg41,.deimg42,.deimg43,.deimg44,.deimg45,.deimg46,.deimg47,.deimg48,.deimg49,.deimg50{
+    width: 25%;
+    height: 200px;
+}
+
+.geimg1{ background-image: url(/imagens/velho-testamento/genesis/1.jpg);background-size: cover;}
+.geimg2{background-image: url(/imagens/velho-testamento/genesis/2.jpg);background-size: cover;}
+.geimg3{background-image: url(/imagens/velho-testamento/genesis/3.png);background-size: cover;}
+.geimg4{background-image: url(/imagens/velho-testamento/genesis/4.jpg);background-size: contain;}
+.geimg5{background-image: url(/imagens/velho-testamento/genesis/5.jpg);background-size: cover;}
+.geimg6{background-image: url(/imagens/velho-testamento/genesis/6.jpg);background-size: cover;}
+.geimg7{background-image: url(/imagens/velho-testamento/genesis/7.jpg);background-size: cover;}
+.geimg8{background-image: url(/imagens/velho-testamento/genesis/8.jpg);background-size: cover;}
+.geimg9{background-image: url(/imagens/velho-testamento/genesis/9.jpg);background-size: cover;}
+.geimg10{background-image: url(/imagens/velho-testamento/genesis/10.jpg);background-size: cover;}
+.geimg11{background-image: url(/imagens/velho-testamento/genesis/11.jpg);background-size: cover;}
+.geimg12{background-image: url(/imagens/velho-testamento/genesis/12.jpg);background-size: cover;}
+.geimg13{background-image: url(/imagens/velho-testamento/genesis/13.jpg);background-size: cover;}
+.geimg14{background-image: url(/imagens/velho-testamento/genesis/14.jpg);background-size: cover;}
+.geimg15{background-image: url(/imagens/velho-testamento/genesis/15.jpg);background-size: cover;}
+.geimg16{background-image: url(/imagens/velho-testamento/genesis/16.PNG);background-size: cover;}
+.geimg17{background-image: url(/imagens/velho-testamento/genesis/17.jpg);background-size: cover;}
+.geimg18{background-image: url(/imagens/velho-testamento/genesis/18.jpg);background-size: cover;}
+.geimg19{background-image: url(/imagens/velho-testamento/genesis/19.jpg);background-size: cover;}
+.geimg20{background-image: url(/imagens/velho-testamento/genesis/20.jpg);background-size: cover;}
+.geimg21{background-image: url(/imagens/velho-testamento/genesis/21.png);background-size: cover;}
+.geimg22{background-image: url(/imagens/velho-testamento/genesis/22.jpg);background-size: cover;}
+.geimg23{background-image: url(/imagens/velho-testamento/genesis/23.jpg);background-size: cover;}
+.geimg24{background-image: url(/imagens/velho-testamento/genesis/24.jpg);background-size: cover;}
+.geimg25{background-image: url(/imagens/velho-testamento/genesis/25.jpg);background-size: cover;}
+.geimg26{background-image: url(/imagens/velho-testamento/genesis/26.jpg);background-size: cover;}
+.geimg27{background-image: url(/imagens/velho-testamento/genesis/27.jpg);background-size: cover;}
+.geimg28{background-image: url(/imagens/velho-testamento/genesis/28.jpg);background-size: cover;}
+.geimg29{background-image: url(/imagens/velho-testamento/genesis/29.jpg);background-size: cover;}
+.geimg30{background-image: url(/imagens/velho-testamento/genesis/30.jpg);background-size: cover;}
+
+.eximg1{ background-image: url(/imagens/velho-testamento/exodo/1.jpg);background-size: cover;}
+.eximg2{background-image: url(/imagens/velho-testamento/exodo/2.jpg);background-size: cover;}
+.eximg3{background-image: url(/imagens/velho-testamento/exodo/3.png);background-size: cover;}
+.eximg4{background-image: url(/imagens/velho-testamento/exodo/4.jpg);background-size: contain;}
+.eximg5{background-image: url(/imagens/velho-testamento/exodo/5.jpg);background-size: cover;}
+.eximg6{background-image: url(/imagens/velho-testamento/exodo/6.jpg);background-size: cover;}
+.eximg7{background-image: url(/imagens/velho-testamento/exodo/7.jpg);background-size: cover;}
+.eximg8{background-image: url(/imagens/velho-testamento/exodo/8.jpg);background-size: cover;}
+.eximg9{background-image: url(/imagens/velho-testamento/exodo/9.jpg);background-size: cover;}
+.eximg10{background-image: url(/imagens/velho-testamento/exodo/10.jpg);background-size: cover;}
+.eximg11{background-image: url(/imagens/velho-testamento/genesis/11.jpg);background-size: cover;}
+.eximg12{background-image: url(/imagens/velho-testamento/genesis/12.jpg);background-size: cover;}
+.eximg13{background-image: url(/imagens/velho-testamento/genesis/13.jpg);background-size: cover;}
+.eximg14{background-image: url(/imagens/velho-testamento/genesis/14.jpg);background-size: cover;}
+.eximg15{background-image: url(/imagens/velho-testamento/genesis/15.jpg);background-size: cover;}
+.eximg16{background-image: url(/imagens/velho-testamento/genesis/16.PNG);background-size: cover;}
+.eximg17{background-image: url(/imagens/velho-testamento/genesis/17.jpg);background-size: cover;}
+.eximg18{background-image: url(/imagens/velho-testamento/genesis/18.jpg);background-size: cover;}
+.eximg19{background-image: url(/imagens/velho-testamento/genesis/19.jpg);background-size: cover;}
+.eximg20{background-image: url(/imagens/velho-testamento/genesis/20.jpg);background-size: cover;}
+.eximg21{background-image: url(/imagens/velho-testamento/genesis/21.png);background-size: cover;}
+.eximg22{background-image: url(/imagens/velho-testamento/genesis/22.jpg);background-size: cover;}
+.eximg23{background-image: url(/imagens/velho-testamento/genesis/23.jpg);background-size: cover;}
+.eximg24{background-image: url(/imagens/velho-testamento/genesis/24.jpg);background-size: cover;}
+.eximg25{background-image: url(/imagens/velho-testamento/genesis/25.jpg);background-size: cover;}
+.eximg26{background-image: url(/imagens/velho-testamento/genesis/26.jpg);background-size: cover;}
+.eximg27{background-image: url(/imagens/velho-testamento/genesis/27.jpg);background-size: cover;}
+.eximg28{background-image: url(/imagens/velho-testamento/genesis/28.jpg);background-size: cover;}
+.eximg29{background-image: url(/imagens/velho-testamento/genesis/29.jpg);background-size: cover;}
+.eximg30{background-image: url(/imagens/velho-testamento/genesis/30.jpg);background-size: cover;}
+
+.leimg1{ background-image: url(/imagens/velho-testamento/levitico/1.jpg);background-size: cover;}
+.leimg2{background-image: url(/imagens/velho-testamento/levitico/2.jpg);background-size: cover;}
+.leimg3{background-image: url(/imagens/velho-testamento/levitico/3.png);background-size: cover;}
+.leimg4{background-image: url(/imagens/velho-testamento/levitico/4.jpg);background-size: contain;}
+.leimg5{background-image: url(/imagens/velho-testamento/levitico/5.jpg);background-size: cover;}
+.leimg6{background-image: url(/imagens/velho-testamento/levitico/6.jpg);background-size: cover;}
+.leimg7{background-image: url(/imagens/velho-testamento/levitico/7.jpg);background-size: cover;}
+.leimg8{background-image: url(/imagens/velho-testamento/levitico/8.jpg);background-size: cover;}
+.leimg9{background-image: url(/imagens/velho-testamento/levitico/9.jpg);background-size: cover;}
+.leimg10{background-image: url(/imagens/velho-testamento/levitico/10.jpg);background-size: cover;}
+.leimg11{background-image: url(/imagens/velho-testamento/genesis/11.jpg);background-size: cover;}
+.leimg12{background-image: url(/imagens/velho-testamento/genesis/12.jpg);background-size: cover;}
+.leimg13{background-image: url(/imagens/velho-testamento/genesis/13.jpg);background-size: cover;}
+.leimg14{background-image: url(/imagens/velho-testamento/genesis/14.jpg);background-size: cover;}
+.leimg15{background-image: url(/imagens/velho-testamento/genesis/15.jpg);background-size: cover;}
+.leimg16{background-image: url(/imagens/velho-testamento/genesis/16.PNG);background-size: cover;}
+.leimg17{background-image: url(/imagens/velho-testamento/genesis/17.jpg);background-size: cover;}
+.leimg18{background-image: url(/imagens/velho-testamento/genesis/18.jpg);background-size: cover;}
+.leimg19{background-image: url(/imagens/velho-testamento/genesis/19.jpg);background-size: cover;}
+.leimg20{background-image: url(/imagens/velho-testamento/genesis/20.jpg);background-size: cover;}
+.leimg21{background-image: url(/imagens/velho-testamento/genesis/21.png);background-size: cover;}
+.leimg22{background-image: url(/imagens/velho-testamento/genesis/22.jpg);background-size: cover;}
+.leimg23{background-image: url(/imagens/velho-testamento/genesis/23.jpg);background-size: cover;}
+.leimg24{background-image: url(/imagens/velho-testamento/genesis/24.jpg);background-size: cover;}
+.leimg25{background-image: url(/imagens/velho-testamento/genesis/25.jpg);background-size: cover;}
+.leimg26{background-image: url(/imagens/velho-testamento/genesis/26.jpg);background-size: cover;}
+.leimg27{background-image: url(/imagens/velho-testamento/genesis/27.jpg);background-size: cover;}
+.leimg28{background-image: url(/imagens/velho-testamento/genesis/28.jpg);background-size: cover;}
+.leimg29{background-image: url(/imagens/velho-testamento/genesis/29.jpg);background-size: cover;}
+.leimg30{background-image: url(/imagens/velho-testamento/genesis/30.jpg);background-size: cover;}
+
+.nuimg1{ background-image: url(/imagens/velho-testamento/numeros/1.jpg);background-size: cover;}
+.nuimg2{background-image: url(/imagens/velho-testamento/numeros/2.jpg);background-size: cover;}
+.nuimg3{background-image: url(/imagens/velho-testamento/numeros/3.png);background-size: cover;}
+.nuimg4{background-image: url(/imagens/velho-testamento/numeros/4.jpg);background-size: contain;}
+.nuimg5{background-image: url(/imagens/velho-testamento/numeros/5.jpg);background-size: cover;}
+.nuimg6{background-image: url(/imagens/velho-testamento/numeros/6.jpg);background-size: cover;}
+.nuimg7{background-image: url(/imagens/velho-testamento/numeros/7.jpg);background-size: cover;}
+.nuimg8{background-image: url(/imagens/velho-testamento/numeros/8.jpg);background-size: cover;}
+.nuimg9{background-image: url(/imagens/velho-testamento/numeros/9.jpg);background-size: cover;}
+.nuimg10{background-image: url(/imagens/velho-testamento/numeros/10.jpg);background-size: cover;}
+.nuimg11{background-image: url(/imagens/velho-testamento/genesis/11.jpg);background-size: cover;}
+.nuimg12{background-image: url(/imagens/velho-testamento/genesis/12.jpg);background-size: cover;}
+.nuimg13{background-image: url(/imagens/velho-testamento/genesis/13.jpg);background-size: cover;}
+.nuimg14{background-image: url(/imagens/velho-testamento/genesis/14.jpg);background-size: cover;}
+.nuimg15{background-image: url(/imagens/velho-testamento/genesis/15.jpg);background-size: cover;}
+.nuimg16{background-image: url(/imagens/velho-testamento/genesis/16.PNG);background-size: cover;}
+.nuimg17{background-image: url(/imagens/velho-testamento/genesis/17.jpg);background-size: cover;}
+.nuimg18{background-image: url(/imagens/velho-testamento/genesis/18.jpg);background-size: cover;}
+.nuimg19{background-image: url(/imagens/velho-testamento/genesis/19.jpg);background-size: cover;}
+.nuimg20{background-image: url(/imagens/velho-testamento/genesis/20.jpg);background-size: cover;}
+.nuimg21{background-image: url(/imagens/velho-testamento/genesis/21.png);background-size: cover;}
+.nuimg22{background-image: url(/imagens/velho-testamento/genesis/22.jpg);background-size: cover;}
+.nuimg23{background-image: url(/imagens/velho-testamento/genesis/23.jpg);background-size: cover;}
+.nuimg24{background-image: url(/imagens/velho-testamento/genesis/24.jpg);background-size: cover;}
+.nuimg25{background-image: url(/imagens/velho-testamento/genesis/25.jpg);background-size: cover;}
+.nuimg26{background-image: url(/imagens/velho-testamento/genesis/26.jpg);background-size: cover;}
+.nuimg27{background-image: url(/imagens/velho-testamento/genesis/27.jpg);background-size: cover;}
+.nuimg28{background-image: url(/imagens/velho-testamento/genesis/28.jpg);background-size: cover;}
+.nuimg29{background-image: url(/imagens/velho-testamento/genesis/29.jpg);background-size: cover;}
+.nuimg30{background-image: url(/imagens/velho-testamento/genesis/30.jpg);background-size: cover;}
+
+.deimg1{ background-image: url(/imagens/velho-testamento/deuteronomio/1.jpg);background-size: cover;}
+.deimg2{background-image: url(/imagens/velho-testamento/deuteronomio/2.jpg);background-size: cover;}
+.deimg3{background-image: url(/imagens/velho-testamento/deuteronomio/3.png);background-size: cover;}
+.deimg4{background-image: url(/imagens/velho-testamento/deuteronomio/4.jpg);background-size: contain;}
+.deimg5{background-image: url(/imagens/velho-testamento/deuteronomio/5.jpg);background-size: cover;}
+.deimg6{background-image: url(/imagens/velho-testamento/deuteronomio/6.jpg);background-size: cover;}
+.deimg7{background-image: url(/imagens/velho-testamento/deuteronomio/7.jpg);background-size: cover;}
+.deimg8{background-image: url(/imagens/velho-testamento/deuteronomio/8.jpg);background-size: cover;}
+.deimg9{background-image: url(/imagens/velho-testamento/deuteronomio/9.jpg);background-size: cover;}
+.deimg10{background-image: url(/imagens/velho-testamento/deuteronomio/10.jpg);background-size: cover;}
+.deimg11{background-image: url(/imagens/velho-testamento/deuteronomio/11.jpg);background-size: cover;}
+.deimg12{background-image: url(/imagens/velho-testamento/genesis/12.jpg);background-size: cover;}
+.deimg13{background-image: url(/imagens/velho-testamento/genesis/13.jpg);background-size: cover;}
+.deimg14{background-image: url(/imagens/velho-testamento/genesis/14.jpg);background-size: cover;}
+.deimg15{background-image: url(/imagens/velho-testamento/genesis/15.jpg);background-size: cover;}
+.deimg16{background-image: url(/imagens/velho-testamento/genesis/16.PNG);background-size: cover;}
+.deimg17{background-image: url(/imagens/velho-testamento/genesis/17.jpg);background-size: cover;}
+.deimg18{background-image: url(/imagens/velho-testamento/genesis/18.jpg);background-size: cover;}
+.deimg19{background-image: url(/imagens/velho-testamento/genesis/19.jpg);background-size: cover;}
+.deimg20{background-image: url(/imagens/velho-testamento/genesis/20.jpg);background-size: cover;}
+.deimg21{background-image: url(/imagens/velho-testamento/genesis/21.png);background-size: cover;}
+.deimg22{background-image: url(/imagens/velho-testamento/genesis/22.jpg);background-size: cover;}
+.deimg23{background-image: url(/imagens/velho-testamento/genesis/23.jpg);background-size: cover;}
+.deimg24{background-image: url(/imagens/velho-testamento/genesis/24.jpg);background-size: cover;}
+.deimg25{background-image: url(/imagens/velho-testamento/genesis/25.jpg);background-size: cover;}
+.deimg26{background-image: url(/imagens/velho-testamento/genesis/26.jpg);background-size: cover;}
+.deimg27{background-image: url(/imagens/velho-testamento/genesis/27.jpg);background-size: cover;}
+.deimg28{background-image: url(/imagens/velho-testamento/genesis/28.jpg);background-size: cover;}
+.deimg29{background-image: url(/imagens/velho-testamento/genesis/29.jpg);background-size: cover;}
+.deimg30{background-image: url(/imagens/velho-testamento/genesis/30.jpg);background-size: cover;}

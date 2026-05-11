@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+menu > ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    
+    
+}
+menu > ul > li{
+    width: 50%;
+    text-align: center;
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.498);
+    border: 2px solid gold;
+}
+menu > ul > li:hover{
+    
+    background-color: rgb(0, 0, 0);
+}
+menu > ul > li > a{
+    text-decoration: none;
+    color: gold;
+}
+.overall{
+    width: 90%;
+    background-color: white;
+    border: 5px solid gold;
+    background-image: url(/imagens/entrada/jesus-body-fundo.png);
+    background-size: 100px;    
+}
+header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.498);
+    color: gold;
+}
+header > h1{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.header-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-p > p{
+    width: 25%;
+}
+
+.os-quatro{
+    background-color: rgba(0, 0, 0, 0.538);
+    color: gold;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+    padding-bottom: 20px;
+    width: 100%;
+    
+}
+.os-quatro > article{
+    width: 25%;
+    text-align: center;
+}
+.os-quatro > article > h2{
+    padding-bottom: 10px;
+}
+.listas{
+    display: flex;
+    justify-content: space-around;
+}
+.listas > ul{
+    list-style: none;
+}
+.listas > ul > li{
+    padding-bottom: 5px;
+}
+
+.quatro-escolhas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.quatro-escolhas>a{
+    display: contents;
+}
+.escolhas{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+    border: 3px solid gold;
+    color: gold;
+    font-size: 10px;
+}
+.escolhas:hover {
+    font-size: 15px;
+}
+.escolhas>h2 {
+    display: inline;
+}
+
+

@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+    background-image: url(/imagens/entrada/jesus-body-fundo.png);
+    background-size: 100px;
+}
+menu > ul{
+    display: flex;
+    width: 100%;
+}
+menu > ul > li{
+    width: 33.33%;
+    list-style: none;
+    text-align: center;
+    border: 1px solid gold;
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.498);
+    padding: 5px 0px;
+}
+menu > ul > li:hover{
+    background-color: rgb(0, 0, 0);
+}
+menu > ul > li > a{
+    text-decoration: none;
+    color: gold;
+}
+section{
+    width: 100%;
+}
+.ar1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: gold;
+    background-color: #0000008c;
+
+}
+.ar1 > h1{
+
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.ar1 > h2{
+    background-color: black;
+    width: 100%;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+}
+.ar1 > p{
+    width: 40%; /* coloca assim, senao o heigth ajusta automaticamente e absolute over */
+}
+
+.josue,.juizes,.rute,.Isamuel,.IIsamuel,.Ireis,.IIreis,.Icronicas,.IIcronicas,.esdras,.neemias,.tobias,.judite,.ester,.Imacabeus,.IImacabeus{
+    background-color: black;
+    text-align: center;
+    color: gold;
+    padding: 10px 0px;
+    border: 3px solid gold;
+}
+.josue:hover,.juizes:hover,.rute:hover,.Isamuel:hover,.IIsamuel:hover,.Ireis:hover,.IIreis:hover,.Icronicas:hover,.IIcronicas:hover,.esdras:hover,.neemias:hover,.tobias:hover,.judite:hover,.ester:hover,.Imacabeus:hover,.IImacabeus:hover{
+    font-size: 20px;
+    
+}
+.josue-info,.juizes-info,.rute-info,.Isamuel-info,.IIsamuel-info,.Ireis-info,.IIreis-info,.Icronicas-info,.IIcronicas-info,.esdras-info,.neemias-info,.tobias-info,.judite-info,.ester-info,.Imacabeus-info,.IImacabeus-info{
+    background-color: rgba(0, 0, 0, 0.761);
+    color: gold;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    padding:10px 0px;
+    display: none;
+
+}
+.josue-info>p,.juizes-info>p,.rute-info>p,.Isamuel-info>p,.IIsamuel-info>p,.Ireis-info>p,.IIreis-info>p,.Icronicas-info>p,.IIcronicas-info>p,.esdras-info>p,.neemias-info>p,.tobias-info>p,.judite-info>p,.ester-info>p,.Imacabeus-info>p,.IImacabeus-info>p{
+    width: 40%;
+}
+.josue-galery,.juizes-galery,.rute-galery,.Isamuel-galery,.IIsamuel-galery,.Ireis-galery,.IIreis-galery,.Icronicas-galery,.IIcronicas-galery,.esdras-galery,.neemias-galery,.tobias-galery,.judite-galery,.ester-galery,.Imacabeus-galery,.IImacabeus-galery{
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    background-color: black;
+}
+.josue-galery>a,.juizes-galery>a,.rute-galery>a,.Isamuel-galery>a,.IIsamuel-galery>a,.Ireis-galery>a,.IIreis-galery>a,.Icronicas-galery>a,.IIcronicas-galery>a,.esdras-galery>a,.neemias-galery>a,.tobias-galery>a,.judite-galery>a,.ester-galery>a,.Imacabeus-galery>a,.IImacabeus-galery>a{
+    display: contents;
+}
+
+.afterbg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+.afterbg:hover{
+    opacity: 1;
+}
+.josimg1,.josimg2,.josimg3,.josimg4,.josimg5,.josimg6,.josimg7,.josimg8,.josimg9,.josimg10,.josimg11,.josimg12,.josimg13,.josimg14,.josimg15,.josimg16,.josimg17,.josimg18,.josimg19,.josimg20,.josimg21,.josimg22,.josimg23,.josimg24,.josimg25,.josimg26,.josimg27,.josimg28
+,.josimg29,.josimg30,.josimg31,.josimg32,.josimg33,.josimg34,.josimg35,.josimg36,.josimg37,.josimg38,.josimg39,.josimg40,.josimg41,.josimg42,.josimg43,.josimg44,.josimg45,.josimg46,.josimg47,.josimg48,.josimg49,.josimg50,
+.juiimg1,.juiimg2,.juiimg3,.juiimg4,.juiimg5,.juiimg6,.juiimg7,.juiimg8,.juiimg9,.juiimg10,.juiimg11,.juiimg12,.juiimg13,.juiimg14,.juiimg15,.juiimg16,.juiimg17,.juiimg18,.juiimg19,.juiimg20,.juiimg21,.juiimg22,.juiimg23,.juiimg24,.juiimg25,.juiimg26,.juiimg27,.juiimg28
+,.juiimg29,.juiimg30,.juiimg31,.juiimg32,.juiimg33,.juiimg34,.juiimg35,.juiimg36,.juiimg37,.juiimg38,.juiimg39,.juiimg40,.juiimg41,.juiimg42,.juiimg43,.juiimg44,.juiimg45,.juiimg46,.juiimg47,.juiimg48,.juiimg49,.juiimg50,
+.rutimg1,.rutimg2,.rutimg3,.rutimg4,.rutimg5,.rutimg6,.rutimg7,.rutimg8,.rutimg9,.rutimg10,.rutimg11,.rutimg12,.rutimg13,.rutimg14,.rutimg15,.rutimg16,.rutimg17,.rutimg18,.rutimg19,.rutimg20,.rutimg21,.rutimg22,.rutimg23,.rutimg24,.rutimg25,.rutimg26,.rutimg27,.rutimg28
+,.rutimg29,.rutimg30,.rutimg31,.rutimg32,.rutimg33,.rutimg34,.rutimg35,.rutimg36,.rutimg37,.rutimg38,.rutimg39,.rutimg40,.rutimg41,.rutimg42,.rutimg43,.rutimg44,.rutimg45,.rutimg46,.rutimg47,.rutimg48,.rutimg49,.rutimg50,
+.Isaimg1,.Isaimg2,.Isaimg3,.Isaimg4,.Isaimg5,.Isaimg6,.Isaimg7,.Isaimg8,.Isaimg9,.Isaimg10,.Isaimg11,.Isaimg12,.Isaimg13,.Isaimg14,.Isaimg15,.Isaimg16,.Isaimg17,.Isaimg18,.Isaimg19,.Isaimg20,.Isaimg21,.Isaimg22,.Isaimg23,.Isaimg24,.Isaimg25,.Isaimg26,.Isaimg27,.Isaimg28
+,.Isaimg29,.Isaimg30,.Isaimg31,.Isaimg32,.Isaimg33,.Isaimg34,.Isaimg35,.Isaimg36,.Isaimg37,.Isaimg38,.Isaimg39,.Isaimg40,.Isaimg41,.Isaimg42,.Isaimg43,.Isaimg44,.Isaimg45,.Isaimg46,.Isaimg47,.Isaimg48,.Isaimg49,.Isaimg50,
+.IIsaimg1,.IIsaimg2,.IIsaimg3,.IIsaimg4,.IIsaimg5,.IIsaimg6,.IIsaimg7,.IIsaimg8,.IIsaimg9,.IIsaimg10,.IIsaimg11,.IIsaimg12,.IIsaimg13,.IIsaimg14,.IIsaimg15,.IIsaimg16,.IIsaimg17,.IIsaimg18,.IIsaimg19,.IIsaimg20,.IIsaimg21,.IIsaimg22,.IIsaimg23,.IIsaimg24,.IIsaimg25,.IIsaimg26,.IIsaimg27,.IIsaimg28
+,.IIsaimg29,.IIsaimg30,.IIsaimg31,.IIsaimg32,.IIsaimg33,.IIsaimg34,.IIsaimg35,.IIsaimg36,.IIsaimg37,.IIsaimg38,.IIsaimg39,.IIsaimg40,.IIsaimg41,.IIsaimg42,.IIsaimg43,.IIsaimg44,.IIsaimg45,.IIsaimg46,.IIsaimg47,.IIsaimg48,.IIsaimg49,.IIsaimg50,
+.Ireimg1,.Ireimg2,.Ireimg3,.Ireimg4,.Ireimg5,.Ireimg6,.Ireimg7,.Ireimg8,.Ireimg9,.Ireimg10,.Ireimg11,.Ireimg12,.Ireimg13,.Ireimg14,.Ireimg15,.Ireimg16,.Ireimg17,.Ireimg18,.Ireimg19,.Ireimg20,.Ireimg21,.Ireimg22,.Ireimg23,.Ireimg24,.Ireimg25,.Ireimg26,.Ireimg27,.Ireimg28
+,.Ireimg29,.Ireimg30,.Ireimg31,.Ireimg32,.Ireimg33,.Ireimg34,.Ireimg35,.Ireimg36,.Ireimg37,.Ireimg38,.Ireimg39,.Ireimg40,.Ireimg41,.Ireimg42,.Ireimg43,.Ireimg44,.Ireimg45,.Ireimg46,.Ireimg47,.Ireimg48,.Ireimg49,.Ireimg50,
+.IIreimg1,.IIreimg2,.IIreimg3,.IIreimg4,.IIreimg5,.IIreimg6,.IIreimg7,.IIreimg8,.IIreimg9,.IIreimg10,.IIreimg11,.IIreimg12,.IIreimg13,.IIreimg14,.IIreimg15,.IIreimg16,.IIreimg17,.IIreimg18,.IIreimg19,.IIreimg20,.IIreimg21,.IIreimg22,.IIreimg23,.IIreimg24,.IIreimg25,.IIreimg26,.IIreimg27,.IIreimg28
+,.IIreimg29,.IIreimg30,.IIreimg31,.IIreimg32,.IIreimg33,.IIreimg34,.IIreimg35,.IIreimg36,.IIreimg37,.IIreimg38,.IIreimg39,.IIreimg40,.IIreimg41,.IIreimg42,.IIreimg43,.IIreimg44,.IIreimg45,.IIreimg46,.IIreimg47,.IIreimg48,.IIreimg49,.IIreimg50,
+.Icroimg1,.Icroimg2,.Icroimg3,.Icroimg4,.Icroimg5,.Icroimg6,.Icroimg7,.Icroimg8,.Icroimg9,.Icroimg10,.Icroimg11,.Icroimg12,.Icroimg13,.Icroimg14,.Icroimg15,.Icroimg16,.Icroimg17,.Icroimg18,.Icroimg19,.Icroimg20,.Icroimg21,.Icroimg22,.Icroimg23,.Icroimg24,.Icroimg25,.Icroimg26,.Icroimg27,.Icroimg28
+,.Icroimg29,.Icroimg30,.Icroimg31,.Icroimg32,.Icroimg33,.Icroimg34,.Icroimg35,.Icroimg36,.Icroimg37,.Icroimg38,.Icroimg39,.Icroimg40,.Icroimg41,.Icroimg42,.Icroimg43,.Icroimg44,.Icroimg45,.Icroimg46,.Icroimg47,.Icroimg48,.Icroimg49,.Icroimg50,
+.IIcroimg1,.IIcroimg2,.IIcroimg3,.IIcroimg4,.IIcroimg5,.IIcroimg6,.IIcroimg7,.IIcroimg8,.IIcroimg9,.IIcroimg10,.IIcroimg11,.IIcroimg12,.IIcroimg13,.IIcroimg14,.IIcroimg15,.IIcroimg16,.IIcroimg17,.IIcroimg18,.IIcroimg19,.IIcroimg20,.IIcroimg21,.IIcroimg22,.IIcroimg23,.IIcroimg24,.IIcroimg25,.IIcroimg26,.IIcroimg27,.IIcroimg28
+,.IIcroimg29,.IIcroimg30,.IIcroimg31,.IIcroimg32,.IIcroimg33,.IIcroimg34,.IIcroimg35,.IIcroimg36,.IIcroimg37,.IIcroimg38,.IIcroimg39,.IIcroimg40,.IIcroimg41,.IIcroimg42,.IIcroimg43,.IIcroimg44,.IIcroimg45,.IIcroimg46,.IIcroimg47,.IIcroimg48,.IIcroimg49,.IIcroimg50,
+.esdimg1,.esdimg2,.esdimg3,.esdimg4,.esdimg5,.esdimg6,.esdimg7,.esdimg8,.esdimg9,.esdimg10,.esdimg11,.esdimg12,.esdimg13,.esdimg14,.esdimg15,.esdimg16,.esdimg17,.esdimg18,.esdimg19,.esdimg20,.esdimg21,.esdimg22,.esdimg23,.esdimg24,.esdimg25,.esdimg26,.esdimg27,.esdimg28
+,.esdimg29,.esdimg30,.esdimg31,.esdimg32,.esdimg33,.esdimg34,.esdimg35,.esdimg36,.esdimg37,.esdimg38,.esdimg39,.esdimg40,.esdimg41,.esdimg42,.esdimg43,.esdimg44,.esdimg45,.esdimg46,.esdimg47,.esdimg48,.esdimg49,.esdimg50,
+.neeimg1,.neeimg2,.neeimg3,.neeimg4,.neeimg5,.neeimg6,.neeimg7,.neeimg8,.neeimg9,.neeimg10,.neeimg11,.neeimg12,.neeimg13,.neeimg14,.neeimg15,.neeimg16,.neeimg17,.neeimg18,.neeimg19,.neeimg20,.neeimg21,.neeimg22,.neeimg23,.neeimg24,.neeimg25,.neeimg26,.neeimg27,.neeimg28
+,.neeimg29,.neeimg30,.neeimg31,.neeimg32,.neeimg33,.neeimg34,.neeimg35,.neeimg36,.neeimg37,.neeimg38,.neeimg39,.neeimg40,.neeimg41,.neeimg42,.neeimg43,.neeimg44,.neeimg45,.neeimg46,.neeimg47,.neeimg48,.neeimg49,.neeimg50,
+.tobimg1,.tobimg2,.tobimg3,.tobimg4,.tobimg5,.tobimg6,.tobimg7,.tobimg8,.tobimg9,.tobimg10,.tobimg11,.tobimg12,.tobimg13,.tobimg14,.tobimg15,.tobimg16,.tobimg17,.tobimg18,.tobimg19,.tobimg20,.tobimg21,.tobimg22,.tobimg23,.tobimg24,.tobimg25,.tobimg26,.tobimg27,.tobimg28
+,.tobimg29,.tobimg30,.tobimg31,.tobimg32,.tobimg33,.tobimg34,.tobimg35,.tobimg36,.tobimg37,.tobimg38,.tobimg39,.tobimg40,.tobimg41,.tobimg42,.tobimg43,.tobimg44,.tobimg45,.tobimg46,.tobimg47,.tobimg48,.tobimg49,.tobimg50,
+.judimg1,.judimg2,.judimg3,.judimg4,.judimg5,.judimg6,.judimg7,.judimg8,.judimg9,.judimg10,.judimg11,.judimg12,.judimg13,.judimg14,.judimg15,.judimg16,.judimg17,.judimg18,.judimg19,.judimg20,.judimg21,.judimg22,.judimg23,.judimg24,.judimg25,.judimg26,.judimg27,.judimg28
+,.judimg29,.judimg30,.judimg31,.judimg32,.judimg33,.judimg34,.judimg35,.judimg36,.judimg37,.judimg38,.judimg39,.judimg40,.judimg41,.judimg42,.judimg43,.judimg44,.judimg45,.judimg46,.judimg47,.judimg48,.judimg49,.judimg50,
+.estimg1,.estimg2,.estimg3,.estimg4,.estimg5,.estimg6,.estimg7,.estimg8,.estimg9,.estimg10,.estimg11,.estimg12,.estimg13,.estimg14,.estimg15,.estimg16,.estimg17,.estimg18,.estimg19,.estimg20,.estimg21,.estimg22,.estimg23,.estimg24,.estimg25,.estimg26,.estimg27,.estimg28
+,.estimg29,.estimg30,.estimg31,.estimg32,.estimg33,.estimg34,.estimg35,.estimg36,.estimg37,.estimg38,.estimg39,.estimg40,.estimg41,.estimg42,.estimg43,.estimg44,.estimg45,.estimg46,.estimg47,.estimg48,.estimg49,.estimg50,
+.Imaimg1,.Imaimg2,.Imaimg3,.Imaimg4,.Imaimg5,.Imaimg6,.Imaimg7,.Imaimg8,.Imaimg9,.Imaimg10,.Imaimg11,.Imaimg12,.Imaimg13,.Imaimg14,.Imaimg15,.Imaimg16,.Imaimg17,.Imaimg18,.Imaimg19,.Imaimg20,.Imaimg21,.Imaimg22,.Imaimg23,.Imaimg24,.Imaimg25,.Imaimg26,.Imaimg27,.Imaimg28
+,.Imaimg29,.Imaimg30,.Imaimg31,.Imaimg32,.Imaimg33,.Imaimg34,.Imaimg35,.Imaimg36,.Imaimg37,.Imaimg38,.Imaimg39,.Imaimg40,.Imaimg41,.Imaimg42,.Imaimg43,.Imaimg44,.Imaimg45,.Imaimg46,.Imaimg47,.Imaimg48,.Imaimg49,.Imaimg50,
+.IImaimg1,.IImaimg2,.IImaimg3,.IImaimg4,.IImaimg5,.IImaimg6,.IImaimg7,.IImaimg8,.IImaimg9,.IImaimg10,.IImaimg11,.IImaimg12,.IImaimg13,.IImaimg14,.IImaimg15,.IImaimg16,.IImaimg17,.IImaimg18,.IImaimg19,.IImaimg20,.IImaimg21,.IImaimg22,.IImaimg23,.IImaimg24,.IImaimg25,.IImaimg26,.IImaimg27,.IImaimg28
+,.IImaimg29,.IImaimg30,.IImaimg31,.IImaimg32,.IImaimg33,.IImaimg34,.IImaimg35,.IImaimg36,.IImaimg37,.IImaimg38,.IImaimg39,.IImaimg40,.IImaimg41,.IImaimg42,.IImaimg43,.IImaimg44,.IImaimg45,.IImaimg46,.IImaimg47,.IImaimg48,.IImaimg49,.IImaimg50
+{
+    width: 25%;
+    height: 200px;
+}
+
+.josimg1{ background-image: url(/imagens/velho-testamento/1-josue/1.jpg);background-size: cover;}
+.josimg2{background-image: url(/imagens/velho-testamento/1-josue/2.jpg);background-size: cover;}
+.josimg3{background-image: url(/imagens/velho-testamento/1-josue/3.jpg);background-size: cover;}
+.josimg4{background-image: url(/imagens/velho-testamento/genesis/4.jpg);background-size: contain;}
+.josimg5{background-image: url(/imagens/velho-testamento/genesis/5.jpg);background-size: cover;}
+.josimg6{background-image: url(/imagens/velho-testamento/genesis/6.jpg);background-size: cover;}
+.josimg7{background-image: url(/imagens/velho-testamento/genesis/7.jpg);background-size: cover;}
+.josimg8{background-image: url(/imagens/velho-testamento/genesis/8.jpg);background-size: cover;}
+.josimg9{background-image: url(/imagens/velho-testamento/genesis/9.jpg);background-size: cover;}
+.josimg10{background-image: url(/imagens/velho-testamento/genesis/10.jpg);background-size: cover;}
+
+
+.juiimg1{ background-image: url(/imagens/velho-testamento/1-juizes/1.jpg);background-size: cover;}
+.juiimg2{background-image: url(/imagens/velho-testamento/1-juizes/2.jpg);background-size: cover;}
+.juiimg3{background-image: url(/imagens/velho-testamento/1-juizes/3.jpg);background-size: cover;}
+.juiimg4{background-image: url(/imagens/velho-testamento/1-juizes/4.jpg);background-size: contain;}
+.juiimg5{background-image: url(/imagens/velho-testamento/1-juizes/5.jpg);background-size: cover;}
+.juiimg6{background-image: url(/imagens/velho-testamento/1-juizes/6.jpg);background-size: cover;}
+.juiimg7{background-image: url(/imagens/velho-testamento/1-juizes/7.jpg);background-size: cover;}
+.juiimg8{background-image: url(/imagens/velho-testamento/1-juizes/8.jpg);background-size: cover;}
+.juiimg9{background-image: url(/imagens/velho-testamento/1-juizes/9.jpg);background-size: cover;}
+.juiimg10{background-image: url(/imagens/velho-testamento/exodo/10.jpg);background-size: cover;}
+
+
+.rutimg1{ background-image: url(/imagens/velho-testamento/1-rute/1.jpg);background-size: cover;}
+.rutimg2{background-image: url(/imagens/velho-testamento/1-rute/2.jpg);background-size: cover;}
+.rutimg3{background-image: url(/imagens/velho-testamento/1-rute/3.jpg);background-size: cover;}
+.rutimg4{background-image: url(/imagens/velho-testamento/1-rute/4.jpg);background-size: contain;}
+.rutimg5{background-image: url(/imagens/velho-testamento/1-rute/5.jpg);background-size: cover;}
+.rutimg6{background-image: url(/imagens/velho-testamento/levitico/6.jpg);background-size: cover;}
+.rutimg7{background-image: url(/imagens/velho-testamento/levitico/7.jpg);background-size: cover;}
+.rutimg8{background-image: url(/imagens/velho-testamento/levitico/8.jpg);background-size: cover;}
+.rutimg9{background-image: url(/imagens/velho-testamento/levitico/9.jpg);background-size: cover;}
+.rutimg10{background-image: url(/imagens/velho-testamento/levitico/10.jpg);background-size: cover;}
+
+
+.Isaimg1{ background-image: url(/imagens/velho-testamento/1-Isamuel/1.jpg);background-size: cover;}
+.Isaimg2{background-image: url(/imagens/velho-testamento/1-Isamuel/2.jpg);background-size: cover;}
+.Isaimg3{background-image: url(/imagens/velho-testamento/1-Isamuel/3.jpg);background-size: cover;}
+.Isaimg4{background-image: url(/imagens/velho-testamento/numeros/4.jpg);background-size: contain;}
+.Isaimg5{background-image: url(/imagens/velho-testamento/numeros/5.jpg);background-size: cover;}
+.Isaimg6{background-image: url(/imagens/velho-testamento/numeros/6.jpg);background-size: cover;}
+.Isaimg7{background-image: url(/imagens/velho-testamento/numeros/7.jpg);background-size: cover;}
+.Isaimg8{background-image: url(/imagens/velho-testamento/numeros/8.jpg);background-size: cover;}
+.Isaimg9{background-image: url(/imagens/velho-testamento/numeros/9.jpg);background-size: cover;}
+.Isaimg10{background-image: url(/imagens/velho-testamento/numeros/10.jpg);background-size: cover;}
+
+
+.IIsaimg1{ background-image: url(/imagens/velho-testamento/1-IIsamuel/1.jpg);background-size: cover;}
+.IIsaimg2{background-image: url(/imagens/velho-testamento/1-IIsamuel/2.jpg);background-size: cover;}
+.IIsaimg3{background-image: url(/imagens/velho-testamento/deuteronomio/3.png);background-size: cover;}
+.IIsaimg4{background-image: url(/imagens/velho-testamento/deuteronomio/4.jpg);background-size: contain;}
+.IIsaimg5{background-image: url(/imagens/velho-testamento/deuteronomio/5.jpg);background-size: cover;}
+.IIsaimg6{background-image: url(/imagens/velho-testamento/deuteronomio/6.jpg);background-size: cover;}
+.IIsaimg7{background-image: url(/imagens/velho-testamento/deuteronomio/7.jpg);background-size: cover;}
+.IIsaimg8{background-image: url(/imagens/velho-testamento/deuteronomio/8.jpg);background-size: cover;}
+.IIsaimg9{background-image: url(/imagens/velho-testamento/deuteronomio/9.jpg);background-size: cover;}
+.IIsaimg10{background-image: url(/imagens/velho-testamento/deuteronomio/10.jpg);background-size: cover;}
+
+
+.Ireimg1{ background-image: url(/imagens/velho-testamento/genesis/1.jpg);background-size: cover;}
+.Ireimg2{background-image: url(/imagens/velho-testamento/genesis/2.jpg);background-size: cover;}
+.Ireimg3{background-image: url(/imagens/velho-testamento/genesis/3.png);background-size: cover;}
+.Ireimg4{background-image: url(/imagens/velho-testamento/genesis/4.jpg);background-size: contain;}
+.Ireimg5{background-image: url(/imagens/velho-testamento/genesis/5.jpg);background-size: cover;}
+.Ireimg6{background-image: url(/imagens/velho-testamento/genesis/6.jpg);background-size: cover;}
+.Ireimg7{background-image: url(/imagens/velho-testamento/genesis/7.jpg);background-size: cover;}
+.Ireimg8{background-image: url(/imagens/velho-testamento/genesis/8.jpg);background-size: cover;}
+.Ireimg9{background-image: url(/imagens/velho-testamento/genesis/9.jpg);background-size: cover;}
+.Ireimg10{background-image: url(/imagens/velho-testamento/genesis/10.jpg);background-size: cover;}
+
+
+.IIreimg1{ background-image: url(/imagens/velho-testamento/exodo/1.jpg);background-size: cover;}
+.IIreimg2{background-image: url(/imagens/velho-testamento/exodo/2.jpg);background-size: cover;}
+.IIreimg3{background-image: url(/imagens/velho-testamento/exodo/3.png);background-size: cover;}
+.IIreimg4{background-image: url(/imagens/velho-testamento/exodo/4.jpg);background-size: contain;}
+.IIreimg5{background-image: url(/imagens/velho-testamento/exodo/5.jpg);background-size: cover;}
+.IIreimg6{background-image: url(/imagens/velho-testamento/exodo/6.jpg);background-size: cover;}
+.IIreimg7{background-image: url(/imagens/velho-testamento/exodo/7.jpg);background-size: cover;}
+.IIreimg8{background-image: url(/imagens/velho-testamento/exodo/8.jpg);background-size: cover;}
+.IIreimg9{background-image: url(/imagens/velho-testamento/exodo/9.jpg);background-size: cover;}
+.IIreimg10{background-image: url(/imagens/velho-testamento/exodo/10.jpg);background-size: cover;}
+
+
+.Icroimg1{ background-image: url(/imagens/velho-testamento/levitico/1.jpg);background-size: cover;}
+.Icroimg2{background-image: url(/imagens/velho-testamento/levitico/2.jpg);background-size: cover;}
+.Icroimg3{background-image: url(/imagens/velho-testamento/levitico/3.png);background-size: cover;}
+.Icroimg4{background-image: url(/imagens/velho-testamento/levitico/4.jpg);background-size: contain;}
+.Icroimg5{background-image: url(/imagens/velho-testamento/levitico/5.jpg);background-size: cover;}
+.Icroimg6{background-image: url(/imagens/velho-testamento/levitico/6.jpg);background-size: cover;}
+.Icroimg7{background-image: url(/imagens/velho-testamento/levitico/7.jpg);background-size: cover;}
+.Icroimg8{background-image: url(/imagens/velho-testamento/levitico/8.jpg);background-size: cover;}
+.Icroimg9{background-image: url(/imagens/velho-testamento/levitico/9.jpg);background-size: cover;}
+.Icroimg10{background-image: url(/imagens/velho-testamento/levitico/10.jpg);background-size: cover;}
+
+
+.IIcroimg1{ background-image: url(/imagens/velho-testamento/numeros/1.jpg);background-size: cover;}
+.IIcroimg2{background-image: url(/imagens/velho-testamento/numeros/2.jpg);background-size: cover;}
+.IIcroimg3{background-image: url(/imagens/velho-testamento/numeros/3.png);background-size: cover;}
+.IIcroimg4{background-image: url(/imagens/velho-testamento/numeros/4.jpg);background-size: contain;}
+.IIcroimg5{background-image: url(/imagens/velho-testamento/numeros/5.jpg);background-size: cover;}
+.IIcroimg6{background-image: url(/imagens/velho-testamento/numeros/6.jpg);background-size: cover;}
+.IIcroimg7{background-image: url(/imagens/velho-testamento/numeros/7.jpg);background-size: cover;}
+.IIcroimg8{background-image: url(/imagens/velho-testamento/numeros/8.jpg);background-size: cover;}
+.IIcroimg9{background-image: url(/imagens/velho-testamento/numeros/9.jpg);background-size: cover;}
+.IIcroimg10{background-image: url(/imagens/velho-testamento/numeros/10.jpg);background-size: cover;}
+
+
+.esdimg1{ background-image: url(/imagens/velho-testamento/1-esdras/1.jpg);background-size: cover;}
+.esdimg2{background-image: url(/imagens/velho-testamento/deuteronomio/2.jpg);background-size: cover;}
+.esdimg3{background-image: url(/imagens/velho-testamento/deuteronomio/3.png);background-size: cover;}
+.esdimg4{background-image: url(/imagens/velho-testamento/deuteronomio/4.jpg);background-size: contain;}
+.esdimg5{background-image: url(/imagens/velho-testamento/deuteronomio/5.jpg);background-size: cover;}
+.esdimg6{background-image: url(/imagens/velho-testamento/deuteronomio/6.jpg);background-size: cover;}
+.esdimg7{background-image: url(/imagens/velho-testamento/deuteronomio/7.jpg);background-size: cover;}
+.esdimg8{background-image: url(/imagens/velho-testamento/deuteronomio/8.jpg);background-size: cover;}
+.esdimg9{background-image: url(/imagens/velho-testamento/deuteronomio/9.jpg);background-size: cover;}
+.esdimg10{background-image: url(/imagens/velho-testamento/deuteronomio/10.jpg);background-size: cover;}
+
+
+.neeimg1{ background-image: url(/imagens/velho-testamento/genesis/1.jpg);background-size: cover;}
+.neeimg2{background-image: url(/imagens/velho-testamento/genesis/2.jpg);background-size: cover;}
+.neeimg3{background-image: url(/imagens/velho-testamento/genesis/3.png);background-size: cover;}
+.neeimg4{background-image: url(/imagens/velho-testamento/genesis/4.jpg);background-size: contain;}
+.neeimg5{background-image: url(/imagens/velho-testamento/genesis/5.jpg);background-size: cover;}
+.neeimg6{background-image: url(/imagens/velho-testamento/genesis/6.jpg);background-size: cover;}
+.neeimg7{background-image: url(/imagens/velho-testamento/genesis/7.jpg);background-size: cover;}
+.neeimg8{background-image: url(/imagens/velho-testamento/genesis/8.jpg);background-size: cover;}
+.neeimg9{background-image: url(/imagens/velho-testamento/genesis/9.jpg);background-size: cover;}
+.neeimg10{background-image: url(/imagens/velho-testamento/genesis/10.jpg);background-size: cover;}
+
+
+.tobimg1{ background-image: url(/imagens/velho-testamento/exodo/1.jpg);background-size: cover;}
+.tobimg2{background-image: url(/imagens/velho-testamento/exodo/2.jpg);background-size: cover;}
+.tobimg3{background-image: url(/imagens/velho-testamento/exodo/3.png);background-size: cover;}
+.tobimg4{background-image: url(/imagens/velho-testamento/exodo/4.jpg);background-size: contain;}
+.tobimg5{background-image: url(/imagens/velho-testamento/exodo/5.jpg);background-size: cover;}
+.tobimg6{background-image: url(/imagens/velho-testamento/exodo/6.jpg);background-size: cover;}
+.tobimg7{background-image: url(/imagens/velho-testamento/exodo/7.jpg);background-size: cover;}
+.tobimg8{background-image: url(/imagens/velho-testamento/exodo/8.jpg);background-size: cover;}
+.tobimg9{background-image: url(/imagens/velho-testamento/exodo/9.jpg);background-size: cover;}
+.tobimg10{background-image: url(/imagens/velho-testamento/exodo/10.jpg);background-size: cover;}
+
+
+.judimg1{ background-image: url(/imagens/velho-testamento/1-judite/1.jpg);background-size: cover;}
+.judimg2{background-image: url(/imagens/velho-testamento/levitico/2.jpg);background-size: cover;}
+.judimg3{background-image: url(/imagens/velho-testamento/levitico/3.jpg);background-size: cover;}
+.judimg4{background-image: url(/imagens/velho-testamento/levitico/4.jpg);background-size: contain;}
+.judimg5{background-image: url(/imagens/velho-testamento/levitico/5.jpg);background-size: cover;}
+.judimg6{background-image: url(/imagens/velho-testamento/levitico/6.jpg);background-size: cover;}
+.judimg7{background-image: url(/imagens/velho-testamento/levitico/7.jpg);background-size: cover;}
+.judimg8{background-image: url(/imagens/velho-testamento/levitico/8.jpg);background-size: cover;}
+.judimg9{background-image: url(/imagens/velho-testamento/levitico/9.jpg);background-size: cover;}
+.judimg10{background-image: url(/imagens/velho-testamento/levitico/10.jpg);background-size: cover;}
+
+.estimg1{ background-image: url(/imagens/velho-testamento/1-ester/1.jpg);background-size: cover;}
+.estimg2{background-image: url(/imagens/velho-testamento/1-ester/2.jpg);background-size: cover;}
+.estimg3{background-image: url(/imagens/velho-testamento/1-ester/3.jpg);background-size: cover;}
+.estimg4{background-image: url(/imagens/velho-testamento/1-ester/4.jpg);background-size: contain;}
+.estimg5{background-image: url(/imagens/velho-testamento/levitico/5.jpg);background-size: cover;}
+.estimg6{background-image: url(/imagens/velho-testamento/levitico/6.jpg);background-size: cover;}
+.estimg7{background-image: url(/imagens/velho-testamento/levitico/7.jpg);background-size: cover;}
+.estimg8{background-image: url(/imagens/velho-testamento/levitico/8.jpg);background-size: cover;}
+.estimg9{background-image: url(/imagens/velho-testamento/levitico/9.jpg);background-size: cover;}
+.estimg10{background-image: url(/imagens/velho-testamento/levitico/10.jpg);background-size: cover;}
+
+
+.Imaimg1{ background-image: url(/imagens/velho-testamento/numeros/1.jpg);background-size: cover;}
+.Imaimg2{background-image: url(/imagens/velho-testamento/numeros/2.jpg);background-size: cover;}
+.Imaimg3{background-image: url(/imagens/velho-testamento/numeros/3.png);background-size: cover;}
+.Imaimg4{background-image: url(/imagens/velho-testamento/numeros/4.jpg);background-size: contain;}
+.Imaimg5{background-image: url(/imagens/velho-testamento/numeros/5.jpg);background-size: cover;}
+.Imaimg6{background-image: url(/imagens/velho-testamento/numeros/6.jpg);background-size: cover;}
+.Imaimg7{background-image: url(/imagens/velho-testamento/numeros/7.jpg);background-size: cover;}
+.Imaimg8{background-image: url(/imagens/velho-testamento/numeros/8.jpg);background-size: cover;}
+.Imaimg9{background-image: url(/imagens/velho-testamento/numeros/9.jpg);background-size: cover;}
+.Imaimg10{background-image: url(/imagens/velho-testamento/numeros/10.jpg);background-size: cover;}
+
+
+.IImaimg1{ background-image: url(/imagens/velho-testamento/deuteronomio/1.jpg);background-size: cover;}
+.IImaimg2{background-image: url(/imagens/velho-testamento/deuteronomio/2.jpg);background-size: cover;}
+.IImaimg3{background-image: url(/imagens/velho-testamento/deuteronomio/3.png);background-size: cover;}
+.IImaimg4{background-image: url(/imagens/velho-testamento/deuteronomio/4.jpg);background-size: contain;}
+.IImaimg5{background-image: url(/imagens/velho-testamento/deuteronomio/5.jpg);background-size: cover;}
+.IImaimg6{background-image: url(/imagens/velho-testamento/deuteronomio/6.jpg);background-size: cover;}
+.IImaimg7{background-image: url(/imagens/velho-testamento/deuteronomio/7.jpg);background-size: cover;}
+.IImaimg8{background-image: url(/imagens/velho-testamento/deuteronomio/8.jpg);background-size: cover;}
+.IImaimg9{background-image: url(/imagens/velho-testamento/deuteronomio/9.jpg);background-size: cover;}
+.IImaimg10{background-image: url(/imagens/velho-testamento/deuteronomio/10.jpg);background-size: cover;}
+
+
+
+
