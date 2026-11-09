@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+    background-image: url(/imagens/entrada/jesus-body-fundo.png);
+    background-size: 100px;
+}
+menu > ul{
+    display: flex;
+    width: 100%;
+}
+menu > ul > li{
+    width: 33.33%;
+    list-style: none;
+    text-align: center;
+    border: 1px solid gold;
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.498);
+    padding: 5px 0px;
+}
+menu > ul > li:hover{
+    background-color: rgb(0, 0, 0);
+}
+menu > ul > li > a{
+    text-decoration: none;
+    color: gold;
+}
+section{
+    width: 100%;
+}
+.ar1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: gold;
+    background-color: #0000008c;
+
+}
+.ar1 > h1{
+
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.ar1 > h2{
+    background-color: black;
+    width: 100%;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+}
+.ar1 > p{
+    width: 40%; /* coloca assim, senao o heigth ajusta automaticamente e absolute over */
+}
+
+.apostolos{
+    background-color: black;
+    text-align: center;
+    color: gold;
+    padding: 10px 0px;
+    border: 3px solid gold;
+}
+.apostolos:hover{
+    font-size: 20px;
+    
+}
+.apostolos-info{
+    background-color: rgba(0, 0, 0, 0.761);
+    color: gold;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    padding:10px 0px;
+    display: none;
+
+}
+.apostolos-info>p{
+    width: 40%;
+}
+.apostolos-galery{
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    background-color: black;
+}
+.apostolos-galery>a{
+    display: contents;
+}
+
+.afterbg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+.afterbg:hover{
+    opacity: 1;
+}
+.apostolosimg1
+{
+    width: 25%;
+    height: 200px;
+}
+
+.apostolosimg1{ background-image: url(/imagens/novo-testamento/2-apostolos/1.jpg);background-size: cover;}
+.isaiasimg2{background-image: url(/imagens/velho-testamento/genesis/2.jpg);background-size: cover;}
+
+

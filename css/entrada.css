@@ -164,5 +164,34 @@ main{
     background-color: rgba(0, 0, 0, 0.502);
 } */
 
+@media screen and (max-width: 1000px) {
+.noveEvelho{
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    height: 450px;
+    
+}
 
+.escolha{
+    display: block;
+    height: 150px;
+    padding-top: 20px;
+}
+.escolha h1{
+    font-size: 2rem;
+}
+.velho{
+    width: 60%;
+}
+
+.novo{
+    width: 60%;
+}
+
+main{
+    height: 610px;
+}
+
+}
 

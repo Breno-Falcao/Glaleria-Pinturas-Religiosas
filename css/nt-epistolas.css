@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+    background-image: url(/imagens/entrada/jesus-body-fundo.png);
+    background-size: 100px;
+}
+menu > ul{
+    display: flex;
+    width: 100%;
+}
+menu > ul > li{
+    width: 33.33%;
+    list-style: none;
+    text-align: center;
+    border: 1px solid gold;
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.498);
+    padding: 5px 0px;
+}
+menu > ul > li:hover{
+    background-color: rgb(0, 0, 0);
+}
+menu > ul > li > a{
+    text-decoration: none;
+    color: gold;
+}
+section{
+    width: 100%;
+}
+.ar1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: gold;
+    background-color: #0000008c;
+
+}
+.ar1 > h1{
+
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.ar1 > h2{
+    background-color: black;
+    width: 100%;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+}
+.ar1 > p{
+    width: 40%; /* coloca assim, senao o heigth ajusta automaticamente e absolute over */
+}
+
+.romanos,.icorintios,.iicorintios,.galatas,.efesto,.filipenses,.colossenses,.itessalonicenses,.iitessalonicenses,.itimoteo,.iitimoteo,.filemon,.hebreus,.epitiago,.iepipedro,.iiepipedro,.iepijoao,.iiepijoao,.iiiepijoao,.epijudas,.tito{
+    background-color: black;
+    text-align: center;
+    color: gold;
+    padding: 10px 0px;
+    border: 3px solid gold;
+}
+.romanos:hover,.icorintios:hover,.iicorintios:hover,.galatas:hover,.efesto:hover,.filipenses:hover,.colossenses:hover,.itessalonicenses:hover,.iitessalonicenses:hover,.itimoteo:hover,.iitimoteo:hover,.filemon:hover,.hebreus:hover,.epitiago:hover,.iepipedro:hover,.iiepipedro:hover,.iepijoao:hover,.iiepijoao:hover,.iiiepijoao:hover,.epijudas:hover,.tito:hover
+{
+    font-size: 20px;
+    
+}
+.romanos-info,.icorintios-info,.iicorintios-info,.galatas-info,.efesto-info,.filipenses-info,.colossenses-info,.itessalonicenses-info,.iitessalonicenses-info,.itimoteo-info,.iitimoteo-info,.filemon-info,.hebreus-info,.epitiago-info,.iepipedro-info,.iiepipedro-info,.iepijoao-info,.iiepijoao-info,.iiiepijoao-info,.epijudas-info,.tito-info
+{
+    background-color: rgba(0, 0, 0, 0.761);
+    color: gold;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    padding:10px 0px;
+    display: none;
+
+}
+.romanos-info>p,.icorintios-info>p,.iicorintios-info>p,.galatas-info>p,.efesto-info>p,.filipenses-info>p,.colossenses-info>p,.itessalonicenses-info>p,.iitessalonicenses-info>p,.itimoteo-info>p,.iitimoteo-info>p,.filemon-info>p,.hebreus-info>p,.epitiago-info>p,.iepipedro-info>p,.iiepipedro-info>p,.iepijoao-info>p,.iiepijoao-info>p,.iiiepijoao-info>p,.epijudas-info>p,.tito-info>p
+{
+    width: 40%;
+}
+.romanos-galery,.icorintios-galery,.iicorintios-galery,.galatas-galery,.efesto-galery,.filipenses-galery,.colossenses-galery,.itessalonicenses-galery,.iitessalonicenses-galery,.itimoteo-galery,.iitimoteo-galery,.filemon-galery,.hebreus-galery,.epitiago-galery,.iepipedro-galery,.iiepipedro-galery,.iepijoao-galery,.iiepijoao-galery,.iiiepijoao-galery,.epijudas-galery,.tito-galery
+{
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    background-color: black;
+}
+.romanos-galery>a,.icorintios-galery>a,.iicorintios-galery>a,.galatas-galery>a,.efesto-galery>a,.filipenses-galery>a,.colossenses-galery>a,.itessalonicenses-galery>a,.iitessalonicenses-galery>a,.itimoteo-galery>a,.iitimoteo-galery>a,.filemon-galery>a,.hebreus-galery>a,.epitiago-galery>a,.iepipedro-galery>a,.iiepipedro-galery>a,.iepijoao-galery>a,.iiepijoao-galery>a,.iiiepijoao-galery>a,.epijudas-galery>a,.tito-galery>a
+{
+    display: contents;
+}
+
+.afterbg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+.afterbg:hover{
+    opacity: 1;
+}
+
+.romanosimg1,
+.icorintiosimg1,
+.iicorintiosimg1,
+.galatasimg1,
+.efestoimg1,
+.filipensesimg1,
+.colossensesimg1,
+.itessalonicensesimg1,
+.iitessalonicensesimg1,
+.itimoteoimg1,
+.iitimoteoimg1,
+.filemonimg1,
+.hebreusimg1,
+.epitiagoimg1,
+.iepipedroimg1,
+.iiepipedroimg1,
+.iepijoaoimg1,
+.iiepijoaoimg1,
+.iiiepijoaoimg1,
+.epijudasimg1
+{
+    width: 25%;
+    height: 200px;
+}
+
+.romanosimg1{ background-image: url(/imagens/novo-testamento/1-mateus/1.jpg);background-size: cover;}
+
+.icorintiosimg1{background-image: url(/imagens/velho-testamento/genesis/2.jpg);background-size: cover;}
+
+.iicorintiosimg1{background-image: url(/imagens/velho-testamento/genesis/3.png);background-size: cover;}
+
+.galatasimg1{background-image: url(/imagens/velho-testamento/genesis/4.jpg);background-size: contain;}
+
+.efestoimg1{background-image: url(/imagens/novo-testamento/3-efesio/1.png);background-size: cover;}
+
+.filipensesimg1{background-image: url(/imagens/velho-testamento/genesis/6.jpg);background-size: cover;}
+
+.colossensesimg1{background-image: url(/imagens/velho-testamento/genesis/7.jpg);background-size: cover;}
+
+.itessalonicensesimg1{background-image: url(/imagens/velho-testamento/genesis/8.jpg);background-size: cover;}
+
+.iitessalonicensesimg1{background-image: url(/imagens/velho-testamento/genesis/9.jpg);background-size: cover;}
+
+.itimoteoimg1{background-image: url(/imagens/velho-testamento/genesis/10.jpg);background-size: cover;}
+
+.iitimoteoimg1{ background-image: url(/imagens/velho-testamento/3-jeremias/1.jpg);background-size: cover;}
+
+.filemonimg1{background-image: url(/imagens/velho-testamento/3-jeremias/2.jpg);background-size: cover;}
+
+.hebreusimg1{background-image: url(/imagens/velho-testamento/exodo/3.png);background-size: cover;}
+
+.epitiagoimg1{background-image: url(/imagens/novo-testamento/3-epitiago/1.jpg);background-size: cover;}
+
+.iepipedroimg1{background-image: url(/imagens/velho-testamento/exodo/5.jpg);background-size: cover;}
+
+.iiepipedroimg1{background-image: url(/imagens/velho-testamento/exodo/6.jpg);background-size: cover;}
+
+.iiiepijoaoimg1{background-image: url(/imagens/velho-testamento/exodo/7.jpg);background-size: cover;}
+
+.epijudasimg1{background-image: url(/imagens/velho-testamento/exodo/8.jpg);background-size: cover;}
