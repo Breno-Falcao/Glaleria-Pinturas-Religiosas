@@ -6,7 +6,7 @@
     
 body{
     background-color: black;
-    background-image: url(/imagens/entrada/jesus-body-fundo.png);
+    background-image: url(../imagens/entrada/jesus-body-fundo.png);
     background-size: 100px;
 
 
@@ -25,7 +25,7 @@ main{
     background-color: rgba(255, 255, 255, 0.116);
     margin: auto;
     border: 5px solid gold;
-    background-image: url(/imagens/entrada/adam-god.png) ;
+    background-image: url(../imagens/entrada/adam-god.png) ;
      background-size: 1200px 600px;
 /* background-size: cover;     */
 }
@@ -63,7 +63,7 @@ main{
 .velho{
     width: 25%;
     height: 200px;
-    background-image: url(/imagens/entrada/adao-eva.png);
+    background-image: url(../imagens/entrada/adao-eva.png);
     background-size: cover;
     border: 5px solid gold;
 }
@@ -71,7 +71,7 @@ main{
 .novo{
     width: 25%;
     height: 200px;
-    background-image: url(/imagens/entrada/jesus-monte.png);
+    background-image: url(../imagens/entrada/jesus-monte.png);
     background-size: cover;
     border: 5px solid gold;
 

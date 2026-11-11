@@ -7,7 +7,7 @@
 body{
     width: 100%;
     background-color: black;
-    background-image: url(/imagens/entrada/jesus-body-fundo.png);
+    background-image: url(../imagens/entrada/jesus-body-fundo.png);
     background-size: 100px;
 }
 menu > ul{
@@ -110,7 +110,7 @@ section{
     height: 200px;
 }
 
-.apostolosimg1{ background-image: url(/imagens/novo-testamento/2-apostolos/1.jpg);background-size: cover;}
-.isaiasimg2{background-image: url(/imagens/velho-testamento/genesis/2.jpg);background-size: cover;}
+.apostolosimg1{ background-image: url(../imagens/novo-testamento/2-apostolos/1.jpg);background-size: cover;}
+.isaiasimg2{background-image: url(../imagens/velho-testamento/genesis/2.jpg);background-size: cover;}
 
 

@@ -7,7 +7,7 @@
 body{
     width: 100%;
     background-color: black;
-    background-image: url(/imagens/entrada/jesus-body-fundo.png);
+    background-image: url(../imagens/entrada/jesus-body-fundo.png);
     background-size: 100px;
 }
 menu > ul{
@@ -123,88 +123,34 @@ section{
     height: 200px;
 }
 
-.joimg1{ background-image: url(/imagens/velho-testamento/2-jo/1.png);background-size: cover;}
-.joimg2{background-image: url(/imagens/velho-testamento/2-jo/2.jpg);background-size: cover;}
-.joimg3{background-image: url(/imagens/velho-testamento/2-jo/3.jpg);background-size: cover;}
-.joimg4{background-image: url(/imagens/velho-testamento/genesis/4.jpg);background-size: contain;}
-.joimg5{background-image: url(/imagens/velho-testamento/genesis/5.jpg);background-size: cover;}
-.joimg6{background-image: url(/imagens/velho-testamento/genesis/6.jpg);background-size: cover;}
-.joimg7{background-image: url(/imagens/velho-testamento/genesis/7.jpg);background-size: cover;}
-.joimg8{background-image: url(/imagens/velho-testamento/genesis/8.jpg);background-size: cover;}
-.joimg9{background-image: url(/imagens/velho-testamento/genesis/9.jpg);background-size: cover;}
-.joimg10{background-image: url(/imagens/velho-testamento/genesis/10.jpg);background-size: cover;}
+.joimg1{ background-image: url(../imagens/velho-testamento/2-jo/1.png);background-size: cover;}
+.joimg2{background-image: url(../imagens/velho-testamento/2-jo/2.jpg);background-size: cover;}
+.joimg3{background-image: url(../imagens/velho-testamento/2-jo/3.jpg);background-size: cover;}
 
 
-.salmosimg1{ background-image: url(/imagens/velho-testamento/exodo/1.jpg);background-size: cover;}
-.salmosimg2{background-image: url(/imagens/velho-testamento/exodo/2.jpg);background-size: cover;}
-.salmosimg3{background-image: url(/imagens/velho-testamento/exodo/3.png);background-size: cover;}
-.salmosimg4{background-image: url(/imagens/velho-testamento/exodo/4.jpg);background-size: contain;}
-.salmosimg5{background-image: url(/imagens/velho-testamento/exodo/5.jpg);background-size: cover;}
-.salmosimg6{background-image: url(/imagens/velho-testamento/exodo/6.jpg);background-size: cover;}
-.salmosimg7{background-image: url(/imagens/velho-testamento/exodo/7.jpg);background-size: cover;}
-.salmosimg8{background-image: url(/imagens/velho-testamento/exodo/8.jpg);background-size: cover;}
-.salmosimg9{background-image: url(/imagens/velho-testamento/exodo/9.jpg);background-size: cover;}
-.salmosimg10{background-image: url(/imagens/velho-testamento/exodo/10.jpg);background-size: cover;}
+
+.salmosimg1{ background-image: url(../imagens/velho-testamento/exodo/1.jpg);background-size: cover;}
 
 
-.proverbiosimg1{ background-image: url(/imagens/velho-testamento/levitico/1.jpg);background-size: cover;}
-.proverbiosimg2{background-image: url(/imagens/velho-testamento/levitico/2.jpg);background-size: cover;}
-.proverbiosimg3{background-image: url(/imagens/velho-testamento/levitico/3.png);background-size: cover;}
-.proverbiosimg4{background-image: url(/imagens/velho-testamento/levitico/4.jpg);background-size: contain;}
-.proverbiosimg5{background-image: url(/imagens/velho-testamento/levitico/5.jpg);background-size: cover;}
-.proverbiosimg6{background-image: url(/imagens/velho-testamento/levitico/6.jpg);background-size: cover;}
-.proverbiosimg7{background-image: url(/imagens/velho-testamento/levitico/7.jpg);background-size: cover;}
-.proverbiosimg8{background-image: url(/imagens/velho-testamento/levitico/8.jpg);background-size: cover;}
-.proverbiosimg9{background-image: url(/imagens/velho-testamento/levitico/9.jpg);background-size: cover;}
-.proverbiosimg10{background-image: url(/imagens/velho-testamento/levitico/10.jpg);background-size: cover;}
+
+.proverbiosimg1{ background-image: url(../imagens/velho-testamento/levitico/1.jpg);background-size: cover;}
 
 
-.eclesiastesimg1{ background-image: url(/imagens/velho-testamento/numeros/1.jpg);background-size: cover;}
-.eclesiastesimg2{background-image: url(/imagens/velho-testamento/numeros/2.jpg);background-size: cover;}
-.eclesiastesimg3{background-image: url(/imagens/velho-testamento/numeros/3.png);background-size: cover;}
-.eclesiastesimg4{background-image: url(/imagens/velho-testamento/numeros/4.jpg);background-size: contain;}
-.eclesiastesimg5{background-image: url(/imagens/velho-testamento/numeros/5.jpg);background-size: cover;}
-.eclesiastesimg6{background-image: url(/imagens/velho-testamento/numeros/6.jpg);background-size: cover;}
-.eclesiastesimg7{background-image: url(/imagens/velho-testamento/numeros/7.jpg);background-size: cover;}
-.eclesiastesimg8{background-image: url(/imagens/velho-testamento/numeros/8.jpg);background-size: cover;}
-.eclesiastesimg9{background-image: url(/imagens/velho-testamento/numeros/9.jpg);background-size: cover;}
-.eclesiastesimg10{background-image: url(/imagens/velho-testamento/numeros/10.jpg);background-size: cover;}
+
+.eclesiastesimg1{ background-image: url(../imagens/velho-testamento/numeros/1.jpg);background-size: cover;}
 
 
-.canticosimg1{ background-image: url(/imagens/velho-testamento/2-canticos/1.jpg);background-size: cover;}
-.canticosimg2{background-image: url(/imagens/velho-testamento/deuteronomio/2.jpg);background-size: cover;}
-.canticosimg3{background-image: url(/imagens/velho-testamento/deuteronomio/3.png);background-size: cover;}
-.canticosimg4{background-image: url(/imagens/velho-testamento/deuteronomio/4.jpg);background-size: contain;}
-.canticosimg5{background-image: url(/imagens/velho-testamento/deuteronomio/5.jpg);background-size: cover;}
-.canticosimg6{background-image: url(/imagens/velho-testamento/deuteronomio/6.jpg);background-size: cover;}
-.canticosimg7{background-image: url(/imagens/velho-testamento/deuteronomio/7.jpg);background-size: cover;}
-.canticosimg8{background-image: url(/imagens/velho-testamento/deuteronomio/8.jpg);background-size: cover;}
-.canticosimg9{background-image: url(/imagens/velho-testamento/deuteronomio/9.jpg);background-size: cover;}
-.canticosimg10{background-image: url(/imagens/velho-testamento/deuteronomio/10.jpg);background-size: cover;}
+
+.canticosimg1{ background-image: url(../imagens/velho-testamento/2-canticos/1.jpg);background-size: cover;}
 
 
-.sabedoriaimg1{ background-image: url(/imagens/velho-testamento/genesis/1.jpg);background-size: cover;}
-.sabedoriaimg2{background-image: url(/imagens/velho-testamento/genesis/2.jpg);background-size: cover;}
-.sabedoriaimg3{background-image: url(/imagens/velho-testamento/genesis/3.png);background-size: cover;}
-.sabedoriaimg4{background-image: url(/imagens/velho-testamento/genesis/4.jpg);background-size: contain;}
-.sabedoriaimg5{background-image: url(/imagens/velho-testamento/genesis/5.jpg);background-size: cover;}
-.sabedoriaimg6{background-image: url(/imagens/velho-testamento/genesis/6.jpg);background-size: cover;}
-.sabedoriaimg7{background-image: url(/imagens/velho-testamento/genesis/7.jpg);background-size: cover;}
-.sabedoriaimg8{background-image: url(/imagens/velho-testamento/genesis/8.jpg);background-size: cover;}
-.sabedoriaimg9{background-image: url(/imagens/velho-testamento/genesis/9.jpg);background-size: cover;}
-.sabedoriaimg10{background-image: url(/imagens/velho-testamento/genesis/10.jpg);background-size: cover;}
+
+.sabedoriaimg1{ background-image: url(../imagens/velho-testamento/genesis/1.jpg);background-size: cover;}
 
 
-.eclesiasticoimg1{ background-image: url(/imagens/velho-testamento/exodo/1.jpg);background-size: cover;}
-.eclesiasticoimg2{background-image: url(/imagens/velho-testamento/exodo/2.jpg);background-size: cover;}
-.eclesiasticoimg3{background-image: url(/imagens/velho-testamento/exodo/3.png);background-size: cover;}
-.eclesiasticoimg4{background-image: url(/imagens/velho-testamento/exodo/4.jpg);background-size: contain;}
-.eclesiasticoimg5{background-image: url(/imagens/velho-testamento/exodo/5.jpg);background-size: cover;}
-.eclesiasticoimg6{background-image: url(/imagens/velho-testamento/exodo/6.jpg);background-size: cover;}
-.eclesiasticoimg7{background-image: url(/imagens/velho-testamento/exodo/7.jpg);background-size: cover;}
-.eclesiasticoimg8{background-image: url(/imagens/velho-testamento/exodo/8.jpg);background-size: cover;}
-.eclesiasticoimg9{background-image: url(/imagens/velho-testamento/exodo/9.jpg);background-size: cover;}
-.eclesiasticoimg10{background-image: url(/imagens/velho-testamento/exodo/10.jpg);background-size: cover;}
+
+.eclesiasticoimg1{ background-image: url(../imagens/velho-testamento/exodo/1.jpg);background-size: cover;}
+
 
 
 

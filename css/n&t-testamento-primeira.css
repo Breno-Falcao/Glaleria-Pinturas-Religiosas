@@ -36,7 +36,7 @@ menu > ul > li > a{
     width: 90%;
     background-color: white;
     border: 5px solid gold;
-    background-image: url(/imagens/entrada/jesus-body-fundo.png);
+    background-image: url(../imagens/entrada/jesus-body-fundo.png);
     background-size: 100px;    
 }
 header{

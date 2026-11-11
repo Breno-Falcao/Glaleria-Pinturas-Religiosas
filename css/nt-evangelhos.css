@@ -7,7 +7,7 @@
 body{
     width: 100%;
     background-color: black;
-    background-image: url(/imagens/entrada/jesus-body-fundo.png);
+    background-image: url(../imagens/entrada/jesus-body-fundo.png);
     background-size: 100px;
 }
 menu > ul{
@@ -113,11 +113,11 @@ section{
     height: 200px;
 }
 
-.mateusimg1{ background-image: url(/imagens/novo-testamento/1-mateus/1.jpg);background-size: cover;}
+.mateusimg1{ background-image: url(../imagens/novo-testamento/1-mateus/1.jpg);background-size: cover;}
 
-.marcosimg1{background-image: url(/imagens/novo-testamento/1-marcos/1.jpg);background-size: cover;}
+.marcosimg1{background-image: url(../imagens/novo-testamento/1-marcos/1.jpg);background-size: cover;}
 
-.lucasimg1{background-image: url(/imagens/novo-testamento/1-lucas/1.jpg);background-size: cover;}
+.lucasimg1{background-image: url(../imagens/novo-testamento/1-lucas/1.jpg);background-size: cover;}
 
-.joaoimg1{background-image: url(/imagens/novo-testamento/1-joao/1.jpg);background-size: cover;}
+.joaoimg1{background-image: url(../imagens/novo-testamento/1-joao/1.jpg);background-size: cover;}
 

@@ -7,7 +7,7 @@
 body{
     width: 100%;
     background-color: black;
-    background-image: url(/imagens/entrada/jesus-body-fundo.png);
+    background-image: url(../imagens/entrada/jesus-body-fundo.png);
     background-size: 100px;
 }
 menu > ul{
@@ -110,7 +110,7 @@ section{
     height: 200px;
 }
 
-.apocalipseimg1{ background-image: url(/imagens/novo-testamento/4-apocalipse/1.png);background-size: cover;}
+.apocalipseimg1{ background-image: url(../imagens/novo-testamento/4-apocalipse/1.png);background-size: cover;}
 
 
 
