@@ -104,20 +104,190 @@ section{
 .afterbg:hover{
     opacity: 1;
 }
-.mateusimg1,
-.marcosimg1,
-.lucasimg1,
-.joaoimg1
+.mateusimg1,.mateusimg2,.mateusimg3,.mateusimg4,.mateusimg5,.mateusimg6,.mateusimg7,.mateusimg8,.mateusimg9,.mateusimg10,.mateusimg11,.mateusimg12,.mateusimg13,.mateusimg14,.mateusimg15,.mateusimg16,.mateusimg17,.mateusimg18,.mateusimg19,.mateusimg20,.mateusimg21,.mateusimg22,.mateusimg23,.mateusimg24,.mateusimg25,.mateusimg26,.mateusimg27,.mateusimg28,.mateusimg29,.mateusimg30,.mateusimg31,.mateusimg32,.mateusimg33,.mateusimg34,.mateusimg35,.mateusimg36,.mateusimg37,.mateusimg38,.mateusimg39,.mateusimg40,.mateusimg41,.mateusimg42,.mateusimg43,.mateusimg44,.mateusimg45,.mateusimg46,.mateusimg47,.mateusimg48,
+.marcosimg1,.marcosimg2,.marcosimg3,.marcosimg4,.marcosimg5,.marcosimg6,.marcosimg7,.marcosimg8,.marcosimg9,.marcosimg10,.marcosimg11,.marcosimg12,.marcosimg13,.marcosimg14,.marcosimg15,.marcosimg16,.marcosimg17,.marcosimg18,.marcosimg19,.marcosimg20,.marcosimg21,.marcosimg22,.marcosimg23,
+.lucasimg1,.lucasimg2,.lucasimg3,.lucasimg4,.lucasimg5,.lucasimg6,.lucasimg7,.lucasimg8,.lucasimg9,.lucasimg10,.lucasimg11,.lucasimg12,.lucasimg13,.lucasimg14,.lucasimg15,.lucasimg16,.lucasimg17,.lucasimg18,.lucasimg19,.lucasimg20,.lucasimg21,.lucasimg22,.lucasimg23,.lucasimg24,.lucasimg25,.lucasimg26,.lucasimg27,.lucasimg28,.lucasimg29,.lucasimg31,.lucasimg32,.lucasimg33,.lucasimg34,.lucasimg35,.lucasimg36,.lucasimg37,.lucasimg38,.lucasimg39,.lucasimg40,.lucasimg41,.lucasimg42,.lucasimg43,.lucasimg44,.lucasimg45,.lucasimg46,.lucasimg47,.lucasimg48,.lucasimg49,.lucasimg50,.lucasimg51,.lucasimg52,.lucasimg53,.lucasimg54,.lucasimg55,.lucasimg56,.lucasimg57,.lucasimg58,.lucasimg59,
+.joaoimg1,.joaoimg2,.joaoimg3,.joaoimg4,.joaoimg5,.joaoimg6,.joaoimg7,.joaoimg8,.joaoimg9,.joaoimg10,.joaoimg11,.joaoimg12,.joaoimg13,.joaoimg14,.joaoimg15,.joaoimg16,.joaoimg17,.joaoimg18,.joaoimg19,.joaoimg20,.joaoimg20,.joaoimg21,.joaoimg22,.joaoimg23,.joaoimg24,.joaoimg25,.joaoimg26,.joaoimg27,.joaoimg28,.joaoimg29,.joaoimg30,.joaoimg31,.joaoimg32,.joaoimg33,.joaoimg34,.joaoimg35,.joaoimg36,.joaoimg37,.joaoimg39,.joaoimg40,.joaoimg41,.joaoimg42,.joaoimg43,.joaoimg44
 {
     width: 25%;
     height: 200px;
 }
 
 .mateusimg1{ background-image: url(../imagens/novo-testamento/1-mateus/1.jpg);background-size: cover;}
+.mateusimg2{ background-image: url(../imagens/novo-testamento/1-mateus/2.jpg);background-size: cover;}
+.mateusimg3{ background-image: url(../imagens/novo-testamento/1-mateus/3.jpg);background-size: cover;}
+.mateusimg4{ background-image: url(../imagens/novo-testamento/1-mateus/4.jpg);background-size: cover;}
+.mateusimg5{ background-image: url(../imagens/novo-testamento/1-mateus/5.jpg);background-size: cover;}
+.mateusimg6{ background-image: url(../imagens/novo-testamento/1-mateus/6.jpg);background-size: cover;}
+.mateusimg7{ background-image: url(../imagens/novo-testamento/1-mateus/7.jpg);background-size: cover;}
+.mateusimg8{ background-image: url(../imagens/novo-testamento/1-mateus/8.jpg);background-size: cover;}
+.mateusimg9{ background-image: url(../imagens/novo-testamento/1-mateus/9.jpg);background-size: cover;}
+.mateusimg10{ background-image: url(../imagens/novo-testamento/1-mateus/10.jpg);background-size: cover;}
+.mateusimg11{ background-image: url(../imagens/novo-testamento/1-mateus/11.jpg);background-size: cover;}
+.mateusimg12{ background-image: url(../imagens/novo-testamento/1-mateus/12.jpg);background-size: cover;}
+.mateusimg13{ background-image: url(../imagens/novo-testamento/1-mateus/13.jpg);background-size: cover;}
+.mateusimg14{ background-image: url(../imagens/novo-testamento/1-mateus/14.jpg);background-size: cover;}
+.mateusimg15{ background-image: url(../imagens/novo-testamento/1-mateus/15.jpg);background-size: cover;}
+.mateusimg16{ background-image: url(../imagens/novo-testamento/1-mateus/16.jpg);background-size: cover;}
+.mateusimg17{ background-image: url(../imagens/novo-testamento/1-mateus/17.jpg);background-size: cover;}
+.mateusimg18{ background-image: url(../imagens/novo-testamento/1-mateus/18.jpg);background-size: cover;}
+.mateusimg19{ background-image: url(../imagens/novo-testamento/1-mateus/19.jpg);background-size: cover;}
+.mateusimg20{ background-image: url(../imagens/novo-testamento/1-mateus/20.jpg);background-size: cover;}
+.mateusimg21{ background-image: url(../imagens/novo-testamento/1-mateus/21.jpg);background-size: cover;}
+.mateusimg22{ background-image: url(../imagens/novo-testamento/1-mateus/22.jpg);background-size: cover;}
+.mateusimg23{ background-image: url(../imagens/novo-testamento/1-mateus/23.jpg);background-size: cover;}
+.mateusimg24{ background-image: url(../imagens/novo-testamento/1-mateus/24.jpg);background-size: cover;}
+.mateusimg25{ background-image: url(../imagens/novo-testamento/1-mateus/25.jpg);background-size: cover;}
+.mateusimg26{ background-image: url(../imagens/novo-testamento/1-mateus/26.jpg);background-size: cover;}
+.mateusimg27{ background-image: url(../imagens/novo-testamento/1-mateus/27.jpg);background-size: cover;}
+.mateusimg28{ background-image: url(../imagens/novo-testamento/1-mateus/28.jpg);background-size: cover;}
+.mateusimg29{ background-image: url(../imagens/novo-testamento/1-mateus/29.jpg);background-size: cover;}
+.mateusimg30{ background-image: url(../imagens/novo-testamento/1-mateus/30.jpg);background-size: cover;}
+.mateusimg31{ background-image: url(../imagens/novo-testamento/1-mateus/31.jpg);background-size: cover;}
+.mateusimg32{ background-image: url(../imagens/novo-testamento/1-mateus/32.jpg);background-size: cover;}
+.mateusimg33{ background-image: url(../imagens/novo-testamento/1-mateus/33.jpg);background-size: cover;}
+.mateusimg34{ background-image: url(../imagens/novo-testamento/1-mateus/34.jpg);background-size: cover;}
+.mateusimg35{ background-image: url(../imagens/novo-testamento/1-mateus/35.jpg);background-size: cover;}
+.mateusimg36{ background-image: url(../imagens/novo-testamento/1-mateus/36.jpg);background-size: cover;}
+.mateusimg37{ background-image: url(../imagens/novo-testamento/1-mateus/37.jpg);background-size: cover;}
+.mateusimg38{ background-image: url(../imagens/novo-testamento/1-mateus/38.jpg);background-size: cover;}
+.mateusimg39{ background-image: url(../imagens/novo-testamento/1-mateus/39.jpg);background-size: cover;}
+.mateusimg40{ background-image: url(../imagens/novo-testamento/1-mateus/40.jpg);background-size: cover;}
+.mateusimg41{ background-image: url(../imagens/novo-testamento/1-mateus/41.jpg);background-size: cover;}
+.mateusimg42{ background-image: url(../imagens/novo-testamento/1-mateus/42.jpg);background-size: cover;}
+.mateusimg43{ background-image: url(../imagens/novo-testamento/1-mateus/43.jpg);background-size: cover;}
+.mateusimg44{ background-image: url(../imagens/novo-testamento/1-mateus/44.jpg);background-size: cover;}
+.mateusimg45{ background-image: url(../imagens/novo-testamento/1-mateus/45.jpg);background-size: cover;}
+.mateusimg46{ background-image: url(../imagens/novo-testamento/1-mateus/46.jpg);background-size: cover;}
+.mateusimg47{ background-image: url(../imagens/novo-testamento/1-mateus/47.jpg);background-size: cover;}
+.mateusimg48{ background-image: url(../imagens/novo-testamento/1-mateus/48.jpg);background-size: cover;}
 
 .marcosimg1{background-image: url(../imagens/novo-testamento/1-marcos/1.jpg);background-size: cover;}
+.marcosimg2{background-image: url(../imagens/novo-testamento/1-marcos/2.jpg);background-size: cover;}
+.marcosimg3{background-image: url(../imagens/novo-testamento/1-marcos/3.jpg);background-size: cover;}
+.marcosimg4{background-image: url(../imagens/novo-testamento/1-marcos/4.jpg);background-size: cover;}
+.marcosimg5{background-image: url(../imagens/novo-testamento/1-marcos/5.jpg);background-size: cover;}
+.marcosimg6{background-image: url(../imagens/novo-testamento/1-marcos/6.jpg);background-size: cover;}
+.marcosimg7{background-image: url(../imagens/novo-testamento/1-marcos/7.jpg);background-size: cover;}
+.marcosimg8{background-image: url(../imagens/novo-testamento/1-marcos/8.jpg);background-size: cover;}
+.marcosimg9{background-image: url(../imagens/novo-testamento/1-marcos/9.jpg);background-size: cover;}
+.marcosimg10{background-image: url(../imagens/novo-testamento/1-marcos/10.jpg);background-size: cover;}
+.marcosimg11{background-image: url(../imagens/novo-testamento/1-marcos/11.jpg);background-size: cover;}
+.marcosimg12{background-image: url(../imagens/novo-testamento/1-marcos/12.jpg);background-size: cover;}
+.marcosimg13{background-image: url(../imagens/novo-testamento/1-marcos/13.jpg);background-size: cover;}
+.marcosimg14{background-image: url(../imagens/novo-testamento/1-marcos/14.jpg);background-size: cover;}
+.marcosimg15{background-image: url(../imagens/novo-testamento/1-marcos/15.jpg);background-size: cover;}
+.marcosimg16{background-image: url(../imagens/novo-testamento/1-marcos/16.jpg);background-size: cover;}
+.marcosimg17{background-image: url(../imagens/novo-testamento/1-marcos/17.jpg);background-size: cover;}
+.marcosimg18{background-image: url(../imagens/novo-testamento/1-marcos/18.jpg);background-size: cover;}
+.marcosimg19{background-image: url(../imagens/novo-testamento/1-marcos/19.jpg);background-size: cover;}
+.marcosimg20{background-image: url(../imagens/novo-testamento/1-marcos/20.jpg);background-size: cover;}
+.marcosimg21{background-image: url(../imagens/novo-testamento/1-marcos/21.jpg);background-size: cover;}
+.marcosimg22{background-image: url(../imagens/novo-testamento/1-marcos/22.jpg);background-size: cover;}
+.marcosimg23{background-image: url(../imagens/novo-testamento/1-marcos/23.jpg);background-size: cover;}
 
 .lucasimg1{background-image: url(../imagens/novo-testamento/1-lucas/1.jpg);background-size: cover;}
+.lucasimg2{background-image: url(../imagens/novo-testamento/1-lucas/2.jpg);background-size: cover;}
+.lucasimg3{background-image: url(../imagens/novo-testamento/1-lucas/3.jpg);background-size: cover;}
+.lucasimg4{background-image: url(../imagens/novo-testamento/1-lucas/4.jpg);background-size: cover;}
+.lucasimg5{background-image: url(../imagens/novo-testamento/1-lucas/5.jpg);background-size: cover;}
+.lucasimg6{background-image: url(../imagens/novo-testamento/1-lucas/6.jpg);background-size: cover;}
+.lucasimg7{background-image: url(../imagens/novo-testamento/1-lucas/7.jpg);background-size: cover;}
+.lucasimg8{background-image: url(../imagens/novo-testamento/1-lucas/8.jpg);background-size: cover;}
+.lucasimg9{background-image: url(../imagens/novo-testamento/1-lucas/9.jpg);background-size: cover;}
+.lucasimg10{background-image: url(../imagens/novo-testamento/1-lucas/10.jpg);background-size: cover;}
+.lucasimg11{background-image: url(../imagens/novo-testamento/1-lucas/11.jpg);background-size: cover;}
+.lucasimg12{background-image: url(../imagens/novo-testamento/1-lucas/12.jpg);background-size: cover;}
+.lucasimg13{background-image: url(../imagens/novo-testamento/1-lucas/13.jpg);background-size: cover;}
+.lucasimg14{background-image: url(../imagens/novo-testamento/1-lucas/14.jpg);background-size: cover;}
+.lucasimg15{background-image: url(../imagens/novo-testamento/1-lucas/15.jpg);background-size: cover;}
+.lucasimg16{background-image: url(../imagens/novo-testamento/1-lucas/16.jpg);background-size: cover;}
+.lucasimg17{background-image: url(../imagens/novo-testamento/1-lucas/17.jpg);background-size: cover;}
+.lucasimg18{background-image: url(../imagens/novo-testamento/1-lucas/18.jpg);background-size: cover;}
+.lucasimg19{background-image: url(../imagens/novo-testamento/1-lucas/19.jpg);background-size: cover;}
+.lucasimg20{background-image: url(../imagens/novo-testamento/1-lucas/20.jpg);background-size: cover;}
+.lucasimg21{background-image: url(../imagens/novo-testamento/1-lucas/21.jpg);background-size: cover;}
+.lucasimg22{background-image: url(../imagens/novo-testamento/1-lucas/22.jpg);background-size: cover;}
+.lucasimg23{background-image: url(../imagens/novo-testamento/1-lucas/23.jpg);background-size: cover;}
+.lucasimg24{background-image: url(../imagens/novo-testamento/1-lucas/24.jpg);background-size: cover;}
+.lucasimg25{background-image: url(../imagens/novo-testamento/1-lucas/25.jpg);background-size: cover;}
+.lucasimg26{background-image: url(../imagens/novo-testamento/1-lucas/26.jpg);background-size: cover;}
+.lucasimg27{background-image: url(../imagens/novo-testamento/1-lucas/27.jpg);background-size: cover;}
+.lucasimg28{background-image: url(../imagens/novo-testamento/1-lucas/28.jpg);background-size: cover;}
+.lucasimg29{background-image: url(../imagens/novo-testamento/1-lucas/29.jpg);background-size: cover;}
+.lucasimg30{background-image: url(../imagens/novo-testamento/1-lucas/30.jpg);background-size: cover;}
+.lucasimg31{background-image: url(../imagens/novo-testamento/1-lucas/31.jpg);background-size: cover;}
+.lucasimg32{background-image: url(../imagens/novo-testamento/1-lucas/32.jpg);background-size: cover;}
+.lucasimg33{background-image: url(../imagens/novo-testamento/1-lucas/33.jpg);background-size: cover;}
+.lucasimg34{background-image: url(../imagens/novo-testamento/1-lucas/34.jpg);background-size: cover;}
+.lucasimg35{background-image: url(../imagens/novo-testamento/1-lucas/35.jpg);background-size: cover;}
+.lucasimg36{background-image: url(../imagens/novo-testamento/1-lucas/36.jpg);background-size: cover;}
+.lucasimg37{background-image: url(../imagens/novo-testamento/1-lucas/37.jpg);background-size: cover;}
+.lucasimg38{background-image: url(../imagens/novo-testamento/1-lucas/38.jpg);background-size: cover;}
+.lucasimg39{background-image: url(../imagens/novo-testamento/1-lucas/39.jpg);background-size: cover;}
+.lucasimg40{background-image: url(../imagens/novo-testamento/1-lucas/40.jpg);background-size: cover;}
+.lucasimg41{background-image: url(../imagens/novo-testamento/1-lucas/41.jpg);background-size: cover;}
+.lucasimg42{background-image: url(../imagens/novo-testamento/1-lucas/42.jpg);background-size: cover;}
+.lucasimg43{background-image: url(../imagens/novo-testamento/1-lucas/43.jpg);background-size: cover;}
+.lucasimg44{background-image: url(../imagens/novo-testamento/1-lucas/44.jpg);background-size: cover;}
+.lucasimg45{background-image: url(../imagens/novo-testamento/1-lucas/45.jpg);background-size: cover;}
+.lucasimg46{background-image: url(../imagens/novo-testamento/1-lucas/46.jpg);background-size: cover;}
+.lucasimg47{background-image: url(../imagens/novo-testamento/1-lucas/47.jpg);background-size: cover;}
+.lucasimg48{background-image: url(../imagens/novo-testamento/1-lucas/48.jpg);background-size: cover;}
+.lucasimg49{background-image: url(../imagens/novo-testamento/1-lucas/49.jpg);background-size: cover;}
+.lucasimg50{background-image: url(../imagens/novo-testamento/1-lucas/50.jpg);background-size: cover;}
+.lucasimg51{background-image: url(../imagens/novo-testamento/1-lucas/51.jpg);background-size: cover;}
+.lucasimg52{background-image: url(../imagens/novo-testamento/1-lucas/52.jpg);background-size: cover;}
+.lucasimg53{background-image: url(../imagens/novo-testamento/1-lucas/53.jpg);background-size: cover;}
+.lucasimg54{background-image: url(../imagens/novo-testamento/1-lucas/54.jpg);background-size: cover;}
+.lucasimg55{background-image: url(../imagens/novo-testamento/1-lucas/55.jpg);background-size: cover;}
+.lucasimg56{background-image: url(../imagens/novo-testamento/1-lucas/56.jpg);background-size: cover;}
+.lucasimg57{background-image: url(../imagens/novo-testamento/1-lucas/57.jpg);background-size: cover;}
+.lucasimg58{background-image: url(../imagens/novo-testamento/1-lucas/58.jpg);background-size: cover;}
+.lucasimg59{background-image: url(../imagens/novo-testamento/1-lucas/59.jpg);background-size: cover;}
 
 .joaoimg1{background-image: url(../imagens/novo-testamento/1-joao/1.jpg);background-size: cover;}
+.joaoimg2{background-image: url(../imagens/novo-testamento/1-joao/2.jpg);background-size: cover;}
+.joaoimg3{background-image: url(../imagens/novo-testamento/1-joao/3.jpg);background-size: cover;}
+.joaoimg4{background-image: url(../imagens/novo-testamento/1-joao/4.jpg);background-size: cover;}
+.joaoimg5{background-image: url(../imagens/novo-testamento/1-joao/5.jpg);background-size: cover;}
+.joaoimg6{background-image: url(../imagens/novo-testamento/1-joao/6.jpg);background-size: cover;}
+.joaoimg7{background-image: url(../imagens/novo-testamento/1-joao/7.jpg);background-size: cover;}
+.joaoimg8{background-image: url(../imagens/novo-testamento/1-joao/8.jpg);background-size: cover;}
+.joaoimg9{background-image: url(../imagens/novo-testamento/1-joao/9.jpg);background-size: cover;}
+.joaoimg10{background-image: url(../imagens/novo-testamento/1-joao/10.jpg);background-size: cover;}
+.joaoimg11{background-image: url(../imagens/novo-testamento/1-joao/11.jpg);background-size: cover;}
+.joaoimg12{background-image: url(../imagens/novo-testamento/1-joao/12.jpg);background-size: cover;}
+.joaoimg13{background-image: url(../imagens/novo-testamento/1-joao/13.jpg);background-size: cover;}
+.joaoimg14{background-image: url(../imagens/novo-testamento/1-joao/14.jpg);background-size: cover;}
+.joaoimg15{background-image: url(../imagens/novo-testamento/1-joao/15.jpg);background-size: cover;}
+.joaoimg16{background-image: url(../imagens/novo-testamento/1-joao/16.jpg);background-size: cover;}
+.joaoimg17{background-image: url(../imagens/novo-testamento/1-joao/17.jpg);background-size: cover;}
+.joaoimg18{background-image: url(../imagens/novo-testamento/1-joao/18.jpg);background-size: cover;}
+.joaoimg19{background-image: url(../imagens/novo-testamento/1-joao/19.jpg);background-size: cover;}
+.joaoimg20{background-image: url(../imagens/novo-testamento/1-joao/20.jpg);background-size: cover;}
+.joaoimg21{background-image: url(../imagens/novo-testamento/1-joao/21.jpg);background-size: cover;}
+.joaoimg22{background-image: url(../imagens/novo-testamento/1-joao/22.jpg);background-size: cover;}
+.joaoimg23{background-image: url(../imagens/novo-testamento/1-joao/23.jpg);background-size: cover;}
+.joaoimg24{background-image: url(../imagens/novo-testamento/1-joao/24.jpg);background-size: cover;}
+.joaoimg25{background-image: url(../imagens/novo-testamento/1-joao/25.jpg);background-size: cover;}
+.joaoimg26{background-image: url(../imagens/novo-testamento/1-joao/26.jpg);background-size: cover;}
+.joaoimg27{background-image: url(../imagens/novo-testamento/1-joao/27.jpg);background-size: cover;}
+.joaoimg28{background-image: url(../imagens/novo-testamento/1-joao/28.jpg);background-size: cover;}
+.joaoimg29{background-image: url(../imagens/novo-testamento/1-joao/29.jpg);background-size: cover;}
+.joaoimg30{background-image: url(../imagens/novo-testamento/1-joao/30.jpg);background-size: cover;}
+.joaoimg31{background-image: url(../imagens/novo-testamento/1-joao/31.jpg);background-size: cover;}
+.joaoimg32{background-image: url(../imagens/novo-testamento/1-joao/32.jpg);background-size: cover;}
+.joaoimg33{background-image: url(../imagens/novo-testamento/1-joao/33.jpg);background-size: cover;}
+.joaoimg34{background-image: url(../imagens/novo-testamento/1-joao/34.jpg);background-size: cover;}
+.joaoimg35{background-image: url(../imagens/novo-testamento/1-joao/35.jpg);background-size: cover;}
+.joaoimg36{background-image: url(../imagens/novo-testamento/1-joao/36.jpg);background-size: cover;}
+.joaoimg37{background-image: url(../imagens/novo-testamento/1-joao/37.jpg);background-size: cover;}
+.joaoimg38{background-image: url(../imagens/novo-testamento/1-joao/38.jpg);background-size: cover;}
+.joaoimg39{background-image: url(../imagens/novo-testamento/1-joao/39.jpg);background-size: cover;}
+.joaoimg40{background-image: url(../imagens/novo-testamento/1-joao/40.jpg);background-size: cover;}
+.joaoimg41{background-image: url(../imagens/novo-testamento/1-joao/41.jpg);background-size: cover;}
+.joaoimg42{background-image: url(../imagens/novo-testamento/1-joao/42.jpg);background-size: cover;}
+.joaoimg43{background-image: url(../imagens/novo-testamento/1-joao/43.jpg);background-size: cover;}
+.joaoimg44{background-image: url(../imagens/novo-testamento/1-joao/44.jpg);background-size: cover;}
 

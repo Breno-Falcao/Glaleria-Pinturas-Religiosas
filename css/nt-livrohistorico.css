@@ -104,13 +104,24 @@ section{
 .afterbg:hover{
     opacity: 1;
 }
-.apostolosimg1
+.apostolosimg1,.apostolosimg2,.apostolosimg3,.apostolosimg4,.apostolosimg5,.apostolosimg6,.apostolosimg7,.apostolosimg8,.apostolosimg9,.apostolosimg10,.apostolosimg11,.apostolosimg12,.apostolosimg13,.apostolosimg14
 {
     width: 25%;
     height: 200px;
 }
 
 .apostolosimg1{ background-image: url(../imagens/novo-testamento/2-apostolos/1.jpg);background-size: cover;}
-.isaiasimg2{background-image: url(../imagens/velho-testamento/genesis/2.jpg);background-size: cover;}
+.apostolosimg2{ background-image: url(../imagens/novo-testamento/2-apostolos/2.jpg);background-size: cover;}
+.apostolosimg3{ background-image: url(../imagens/novo-testamento/2-apostolos/3.jpg);background-size: cover;}
+.apostolosimg4{ background-image: url(../imagens/novo-testamento/2-apostolos/4.jpg);background-size: cover;}
+.apostolosimg5{ background-image: url(../imagens/novo-testamento/2-apostolos/5.jpg);background-size: cover;}
+.apostolosimg6{ background-image: url(../imagens/novo-testamento/2-apostolos/6.jpg);background-size: cover;}
+.apostolosimg7{ background-image: url(../imagens/novo-testamento/2-apostolos/7.jpg);background-size: cover;}
+.apostolosimg8{ background-image: url(../imagens/novo-testamento/2-apostolos/8.jpg);background-size: cover;}
+.apostolosimg9{ background-image: url(../imagens/novo-testamento/2-apostolos/9.jpg);background-size: cover;}
+.apostolosimg10{ background-image: url(../imagens/novo-testamento/2-apostolos/10.jpg);background-size: cover;}
+.apostolosimg11{ background-image: url(../imagens/novo-testamento/2-apostolos/11.jpg);background-size: cover;}
+.apostolosimg12{ background-image: url(../imagens/novo-testamento/2-apostolos/12.jpg);background-size: cover;}
+.apostolosimg13{ background-image: url(../imagens/novo-testamento/2-apostolos/13.jpg);background-size: cover;}
 
 

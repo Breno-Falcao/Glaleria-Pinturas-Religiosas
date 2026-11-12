@@ -135,38 +135,42 @@ section{
     height: 200px;
 }
 
-.romanosimg1{ background-image: url(../imagens/novo-testamento/1-mateus/1.jpg);background-size: cover;}
+.romanosimg1{ background-image: url(../imagens/novo-testamento/3-romanos/1.jpg);background-size: cover;}
 
-.icorintiosimg1{background-image: url(../imagens/velho-testamento/genesis/2.jpg);background-size: cover;}
+.icorintiosimg1{background-image: url(../imagens/novo-testamento/3-1corintio/);background-size: cover;}
 
-.iicorintiosimg1{background-image: url(../imagens/velho-testamento/genesis/3.png);background-size: cover;}
+.iicorintiosimg1{background-image: url(../imagens/novo-testamento/3-2corintios/);background-size: cover;}
 
-.galatasimg1{background-image: url(../imagens/velho-testamento/genesis/4.jpg);background-size: contain;}
+.galatasimg1{background-image: url(../imagens/novo-testamento/3-galatas/);background-size: contain;}
 
 .efestoimg1{background-image: url(../imagens/novo-testamento/3-efesio/1.png);background-size: cover;}
 
-.filipensesimg1{background-image: url(../imagens/velho-testamento/genesis/6.jpg);background-size: cover;}
+.filipensesimg1{background-image: url(../imagens/novo-testamento/3-filipenses/);background-size: cover;}
 
-.colossensesimg1{background-image: url(../imagens/velho-testamento/genesis/7.jpg);background-size: cover;}
+.colossensesimg1{background-image: url(../imagens/novo-testamento/3-colossenses/);background-size: cover;}
 
-.itessalonicensesimg1{background-image: url(../imagens/velho-testamento/genesis/8.jpg);background-size: cover;}
+.itessalonicensesimg1{background-image: url(../imagens/novo-testamento/3-1tessa/);background-size: cover;}
 
-.iitessalonicensesimg1{background-image: url(../imagens/velho-testamento/genesis/9.jpg);background-size: cover;}
+.iitessalonicensesimg1{background-image: url(../imagens/novo-testamento/3-2tessa/);background-size: cover;}
 
-.itimoteoimg1{background-image: url(../imagens/velho-testamento/genesis/10.jpg);background-size: cover;}
+.itimoteoimg1{background-image: url(../imagens/novo-testamento/3-1timoteo/);background-size: cover;}
 
-.iitimoteoimg1{ background-image: url(../imagens/velho-testamento/3-jeremias/1.jpg);background-size: cover;}
+.iitimoteoimg1{ background-image: url(../imagens/novo-testamento/3-2timoteo/);background-size: cover;}
 
-.filemonimg1{background-image: url(../imagens/velho-testamento/3-jeremias/2.jpg);background-size: cover;}
+.filemonimg1{background-image: url(../imagens/novo-testamento/3-filemon/);background-size: cover;}
 
-.hebreusimg1{background-image: url(../imagens/velho-testamento/exodo/3.png);background-size: cover;}
+.hebreusimg1{background-image: url(../imagens/novo-testamento/3-hebreus/);background-size: cover;}
 
 .epitiagoimg1{background-image: url(../imagens/novo-testamento/3-epitiago/1.jpg);background-size: cover;}
 
-.iepipedroimg1{background-image: url(../imagens/velho-testamento/exodo/5.jpg);background-size: cover;}
+.iepipedroimg1{background-image: url(../imagens/novo-testamento/3-1epipedro/1.jpg);background-size: cover;}
 
-.iiepipedroimg1{background-image: url(../imagens/velho-testamento/exodo/6.jpg);background-size: cover;}
+.iiepipedroimg1{background-image: url(../imagens/novo-testamento/3-2epipedro/1.jpg);background-size: cover;}
 
-.iiiepijoaoimg1{background-image: url(../imagens/velho-testamento/exodo/7.jpg);background-size: cover;}
+.iepijoaoimg1{background-image: url(../imagens/novo-testamento/3-1epijoao/);background-size: cover;}
 
-.epijudasimg1{background-image: url(../imagens/velho-testamento/exodo/8.jpg);background-size: cover;}
+.iiepijoaoimg1{background-image: url(../imagens/novo-testamento/3-2epijoao/);background-size: cover;}
+
+.iiiepijoaoimg1{background-image: url(../imagens/novo-testamento/3-3epijoao/);background-size: cover;}
+
+.epijudasimg1{background-image: url(../imagens/novo-testamento/3-epijudas/);background-size: cover;}

@@ -104,13 +104,19 @@ section{
 .afterbg:hover{
     opacity: 1;
 }
-.apocalipseimg1
+.apocalipseimg1,.apocalipseimg2,.apocalipseimg3,.apocalipseimg4,.apocalipseimg5,.apocalipseimg6,.apocalipseimg7
 {
     width: 25%;
     height: 200px;
 }
 
 .apocalipseimg1{ background-image: url(../imagens/novo-testamento/4-apocalipse/1.png);background-size: cover;}
+.apocalipseimg2{ background-image: url(../imagens/novo-testamento/4-apocalipse/2.jpg);background-size: cover;}
+.apocalipseimg3{ background-image: url(../imagens/novo-testamento/4-apocalipse/3.jpg);background-size: cover;}
+.apocalipseimg4{ background-image: url(../imagens/novo-testamento/4-apocalipse/4.jpg);background-size: cover;}
+.apocalipseimg5{ background-image: url(../imagens/novo-testamento/4-apocalipse/5.jpg);background-size: cover;}
+.apocalipseimg6{ background-image: url(../imagens/novo-testamento/4-apocalipse/6.jpg);background-size: cover;}
+.apocalipseimg7{ background-image: url(../imagens/novo-testamento/4-apocalipse/7.jpg);background-size: cover;}
 
 
 
